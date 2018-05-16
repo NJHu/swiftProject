@@ -1,0 +1,21 @@
+
+platform :ios, '10.3'
+
+use_frameworks!
+
+target 'NJDouYu' do
+
+  pod 'Alamofire'
+
+  target 'NJDouYuTests' do
+    inherit! :search_paths
+
+  end
+
+  target 'NJDouYuUITests' do
+    inherit! :search_paths
+
+
+  end
+
+end
