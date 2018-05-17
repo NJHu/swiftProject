@@ -6,6 +6,7 @@ use_frameworks!
 target 'NJDouYu' do
 
   pod 'Alamofire'
+  pod 'Masonry'
 
   target 'NJDouYuTests' do
     inherit! :search_paths
