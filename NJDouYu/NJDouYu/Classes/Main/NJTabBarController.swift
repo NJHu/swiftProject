@@ -18,11 +18,11 @@ class NJTabBarController: UITabBarController {
 
 extension NJTabBarController {
     private func addChildVcs() -> Void {
-        addChildVC(childController: NJViewController(), tabBartitle: "首页", image: "btn_home_normal", selImage: "btn_home_selected")
-        addChildVC(childController: NJViewController(), tabBartitle: "分类", image: "btn_home_normal", selImage: "btn_home_selected")
-        addChildVC(childController: NJViewController(), tabBartitle: "关注", image: "btn_live_normal", selImage: "btn_live_selected")
-        addChildVC(childController: NJViewController(), tabBartitle: "鱼吧", image: "btn_live_normal", selImage: "btn_live_selected")
-        addChildVC(childController: NJTableViewController(tableViewStyle: UITableViewStyle.grouped), tabBartitle: "我的", image: "btn_user_normal", selImage: "btn_user_selected")
+        addChildVC(childController: NJHomeViewController(), tabBartitle: "首页", image: "btn_home_normal", selImage: "btn_home_selected")
+        addChildVC(childController: NJCategoryViewController(), tabBartitle: "分类", image: "btn_home_normal", selImage: "btn_home_selected")
+        addChildVC(childController: NJTrendsViewController(), tabBartitle: "关注", image: "btn_live_normal", selImage: "btn_live_selected")
+        addChildVC(childController: NJFishBarViewController(), tabBartitle: "鱼吧", image: "btn_live_normal", selImage: "btn_live_selected")
+        addChildVC(childController: NJMeViewController(tableViewStyle: UITableViewStyle.grouped), tabBartitle: "我的", image: "btn_user_normal", selImage: "btn_user_selected")
     }
     private func addChildVC(childController: UIViewController, tabBartitle: String, image: String, selImage: String) {
         childController.tabBarItem.image = UIImage(named: image)

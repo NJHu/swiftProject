@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		589F3CE920ADBA580020DBE4 /* NJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CE820ADBA580020DBE4 /* NJHomeViewController.swift */; };
+		589F3CEB20ADBA7A0020DBE4 /* NJCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CEA20ADBA7A0020DBE4 /* NJCategoryViewController.swift */; };
+		589F3CED20ADBA840020DBE4 /* NJTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CEC20ADBA840020DBE4 /* NJTrendsViewController.swift */; };
+		589F3CEF20ADBA8E0020DBE4 /* NJFishBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CEE20ADBA8E0020DBE4 /* NJFishBarViewController.swift */; };
+		589F3CF120ADBA960020DBE4 /* NJMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF020ADBA960020DBE4 /* NJMeViewController.swift */; };
 		589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FC67220AD737F00AF3144 /* NJWebViewController.swift */; };
 		589FC67520AD785B00AF3144 /* NJNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FC67420AD785B00AF3144 /* NJNavigationBar.swift */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
@@ -48,6 +53,11 @@
 		161CA18B130D74038E237D7B /* Pods-NJDouYuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E581E24D08D5260836963BD /* Pods-NJDouYuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		589F3CE820ADBA580020DBE4 /* NJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJHomeViewController.swift; sourceTree = "<group>"; };
+		589F3CEA20ADBA7A0020DBE4 /* NJCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJCategoryViewController.swift; sourceTree = "<group>"; };
+		589F3CEC20ADBA840020DBE4 /* NJTrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJTrendsViewController.swift; sourceTree = "<group>"; };
+		589F3CEE20ADBA8E0020DBE4 /* NJFishBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJFishBarViewController.swift; sourceTree = "<group>"; };
+		589F3CF020ADBA960020DBE4 /* NJMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJMeViewController.swift; sourceTree = "<group>"; };
 		589FC67220AD737F00AF3144 /* NJWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJWebViewController.swift; sourceTree = "<group>"; };
 		589FC67420AD785B00AF3144 /* NJNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJNavigationBar.swift; sourceTree = "<group>"; };
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +232,11 @@
 			isa = PBXGroup;
 			children = (
 				58B36C5420AAFE2700915868 /* NJTabBarController.swift */,
+				589F3CE820ADBA580020DBE4 /* NJHomeViewController.swift */,
+				589F3CEA20ADBA7A0020DBE4 /* NJCategoryViewController.swift */,
+				589F3CEC20ADBA840020DBE4 /* NJTrendsViewController.swift */,
+				589F3CEE20ADBA8E0020DBE4 /* NJFishBarViewController.swift */,
+				589F3CF020ADBA960020DBE4 /* NJMeViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -523,13 +538,18 @@
 				58B36C5920AAFE2700915868 /* NJRefreshCollectionViewController.swift in Sources */,
 				58B36C5820AAFE2700915868 /* NJNavigationController.swift in Sources */,
 				58B36C5C20AAFE2700915868 /* NJTableViewController.swift in Sources */,
+				589F3CEB20ADBA7A0020DBE4 /* NJCategoryViewController.swift in Sources */,
 				589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */,
 				58B36C5B20AAFE2700915868 /* NJViewController.swift in Sources */,
+				589F3CE920ADBA580020DBE4 /* NJHomeViewController.swift in Sources */,
 				58B36C5D20AAFE2700915868 /* NJCollectionViewController.swift in Sources */,
 				58B36C5720AAFE2700915868 /* NJNavBarViewController.swift in Sources */,
 				589FC67520AD785B00AF3144 /* NJNavigationBar.swift in Sources */,
 				58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */,
+				589F3CEF20ADBA8E0020DBE4 /* NJFishBarViewController.swift in Sources */,
+				589F3CF120ADBA960020DBE4 /* NJMeViewController.swift in Sources */,
 				58B36C5A20AAFE2700915868 /* NJRefreshTableViewController.swift in Sources */,
+				589F3CED20ADBA840020DBE4 /* NJTrendsViewController.swift in Sources */,
 				58B36C5E20AAFE2700915868 /* NJTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

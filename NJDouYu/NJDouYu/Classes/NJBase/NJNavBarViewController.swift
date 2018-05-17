@@ -16,11 +16,17 @@ class NJNavBarViewController: UIViewController {
         super.viewDidLoad()
         view.addSubview(nj_navigationBar)
         nj_navigationBar.isHidden = !(parent != nil && parent!.isKind(of: NJNavigationController.classForCoder()))
-
+        nj_navigationBar.titleLabel.text = title
+        navigationItem.addObserver(self, forKeyPath: "title", options: NSKeyValueObservingOptions.new, context: nil)
     }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         view.bringSubview(toFront: nj_navigationBar)
+    }
+    
+    deinit {
+        navigationItem.removeObserver(self, forKeyPath: "title")
     }
 }
 
@@ -37,3 +43,23 @@ extension NJNavBarViewController {
         return UIStatusBarAnimation.slide
     }
 }
+
+// MARK:- title
+extension NJNavBarViewController {
+    override var title: String? {
+        didSet {
+            if isViewLoaded {
+                nj_navigationBar.titleLabel.text = title
+            }
+        }
+    }
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath! == "title" {
+            nj_navigationBar.titleLabel.text = change?[NSKeyValueChangeKey.newKey] as? String
+        }else {
+            super.observeValue(forKeyPath: keyPath, of: object, change: change, context: context)
+        }
+    }
+}
+
+
