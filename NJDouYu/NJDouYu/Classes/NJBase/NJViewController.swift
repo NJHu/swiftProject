@@ -13,5 +13,6 @@ class NJViewController: NJNavBarViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.groupTableViewBackground
+        automaticallyAdjustsScrollViewInsets = false
     }
 }

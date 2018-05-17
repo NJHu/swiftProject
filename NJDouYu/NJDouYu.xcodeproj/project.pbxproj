@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FC67220AD737F00AF3144 /* NJWebViewController.swift */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
 		58B36C2D20AAFD8200915868 /* NJDouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */; };
 		58B36C3820AAFD8200915868 /* NJDouYuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C3720AAFD8200915868 /* NJDouYuUITests.swift */; };
@@ -46,6 +47,7 @@
 		161CA18B130D74038E237D7B /* Pods-NJDouYuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E581E24D08D5260836963BD /* Pods-NJDouYuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		589FC67220AD737F00AF3144 /* NJWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJWebViewController.swift; sourceTree = "<group>"; };
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36C1E20AAFD8200915868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58B36C2320AAFD8200915868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				58B36C4F20AAFE2700915868 /* NJViewController.swift */,
 				58B36C5020AAFE2700915868 /* NJTableViewController.swift */,
 				58B36C5220AAFE2700915868 /* NJCollectionViewController.swift */,
+				589FC67220AD737F00AF3144 /* NJWebViewController.swift */,
 				58B36C4E20AAFE2700915868 /* NJRefreshTableViewController.swift */,
 				58B36C4D20AAFE2700915868 /* NJRefreshCollectionViewController.swift */,
 				58B36C5120AAFE2700915868 /* View */,
@@ -517,6 +520,7 @@
 				58B36C5920AAFE2700915868 /* NJRefreshCollectionViewController.swift in Sources */,
 				58B36C5820AAFE2700915868 /* NJNavigationController.swift in Sources */,
 				58B36C5C20AAFE2700915868 /* NJTableViewController.swift in Sources */,
+				589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */,
 				58B36C5B20AAFE2700915868 /* NJViewController.swift in Sources */,
 				58B36C5D20AAFE2700915868 /* NJCollectionViewController.swift in Sources */,
 				58B36C5720AAFE2700915868 /* NJNavBarViewController.swift in Sources */,
