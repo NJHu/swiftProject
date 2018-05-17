@@ -1,12 +1,15 @@
 PODS:
   - Alamofire (4.7.2)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - Alamofire
+  - Masonry
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 5f66e0e1f0d399d67c3fa6701ea8fdbec10e047b
+PODFILE CHECKSUM: 8c7dbb2e5b2a7bf6705a66d9a0707ff0e1a523d6
 
 COCOAPODS: 1.2.0
