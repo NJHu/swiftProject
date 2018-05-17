@@ -15,5 +15,11 @@ class NJNavigationController: UINavigationController {
         navigationBar.isHidden = true
         view.backgroundColor = UIColor.groupTableViewBackground
     }
-    
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        if childViewControllers.count > 0 {
+            viewController.hidesBottomBarWhenPushed = true
+        }
+        
+        super.pushViewController(viewController, animated: animated)
+    }
 }
