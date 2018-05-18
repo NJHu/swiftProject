@@ -16,7 +16,7 @@ class NJNavBarViewController: UIViewController {
         super.viewDidLoad()
         view.addSubview(nj_navigationBar)
         nj_navigationBar.isHidden = !(parent != nil && parent!.isKind(of: NJNavigationController.classForCoder()))
-        nj_navigationBar.titleLabel.text = title
+        nj_navigationBar.titleLabel.text = navigationItem.title != nil ? navigationItem.title : title
         navigationItem.addObserver(self, forKeyPath: "title", options: NSKeyValueObservingOptions.new, context: nil)
     }
     
