@@ -9,6 +9,8 @@
 import UIKit
 
 class NJNavBarViewController: UIViewController {
+    // 默认可以全局滑动返回
+    public var nj_interactivePopDisabled = false
     
     public let nj_navigationBar: NJNavigationBar = NJNavigationBar(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: UIScreen.main.bounds.size.width, height: 44.0 + UIApplication.shared.statusBarFrame.size.height)))
     
@@ -19,7 +21,6 @@ class NJNavBarViewController: UIViewController {
         nj_navigationBar.titleLabel.text = navigationItem.title != nil ? navigationItem.title : title
         navigationItem.addObserver(self, forKeyPath: "title", options: NSKeyValueObservingOptions.new, context: nil)
     }
-    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         view.bringSubview(toFront: nj_navigationBar)
@@ -54,7 +55,8 @@ extension NJNavBarViewController {
         }
     }
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if keyPath! == "title" {
+        let navigationItem = object as? UINavigationItem
+        if keyPath! == "title" && (navigationItem != nil) && (navigationItem! == self.navigationItem) {
             nj_navigationBar.titleLabel.text = change?[NSKeyValueChangeKey.newKey] as? String
         }else {
             super.observeValue(forKeyPath: keyPath, of: object, change: change, context: context)

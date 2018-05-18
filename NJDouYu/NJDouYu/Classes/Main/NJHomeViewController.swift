@@ -16,3 +16,11 @@ class NJHomeViewController: NJViewController {
     }
 
 }
+
+extension NJHomeViewController {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let webVc = NJWebViewController()
+        webVc.gotoUrl = "https://baidu.com"
+        navigationController?.pushViewController(webVc, animated: true)
+    }
+}
