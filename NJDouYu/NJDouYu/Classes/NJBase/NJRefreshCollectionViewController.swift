@@ -24,6 +24,9 @@ class NJRefreshCollectionViewController: NJCollectionViewController {
         })
         collectionView.mj_header.beginRefreshing()
     }
+    public func loadData(isMore: Bool) {
+        
+    }
 }
 
 extension NJRefreshCollectionViewController {
@@ -47,13 +50,6 @@ extension NJRefreshCollectionViewController {
     }
 }
 
-
-
-extension NJRefreshCollectionViewController {
-    public func loadData(isMore: Bool) {
-        
-    }
-}
 
 extension NJRefreshCollectionViewController {
     // 子类需要调用调用

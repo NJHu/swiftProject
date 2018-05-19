@@ -26,7 +26,7 @@ extension NJCollectionViewController {
         if #available(iOS 11, *) {
             collectionView?.contentInsetAdjustmentBehavior = .never
         }
-        if (parent != nil) && parent!.isKind(of: NJNavBarViewController.classForCoder()) {
+        if (parent != nil) && parent!.isKind(of: UINavigationController.classForCoder()) {
             var contentInset = collectionView!.contentInset
             contentInset.top += nj_navigationBar.frame.size.height
             collectionView?.contentInset = contentInset

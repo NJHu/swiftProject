@@ -24,6 +24,9 @@ class NJRefreshTableViewController: NJTableViewController {
         })
         tableView.mj_header.beginRefreshing()
     }
+    public func loadData(isMore: Bool) {
+        
+    }
 }
 
 extension NJRefreshTableViewController {
@@ -44,14 +47,6 @@ extension NJRefreshTableViewController {
             tableView.mj_footer.isHidden = true
         }
         self.loadData(isMore: isMore)
-    }
-}
-
-
-
-extension NJRefreshTableViewController {
-    public func loadData(isMore: Bool) {
-        
     }
 }
 

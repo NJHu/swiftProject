@@ -13,8 +13,8 @@ class NJHomeViewController: NJViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "首页"
+        nj_isBackActionBtnHidden = true
     }
-
 }
 
 extension NJHomeViewController {

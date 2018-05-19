@@ -35,6 +35,7 @@ class NJWebViewController: NJViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         nj_interactivePopDisabled = true
+        nj_isBackActionBtnHidden = true
         addWkWebView()
         setUpWkWebView()
         addObservers()
@@ -98,7 +99,7 @@ extension NJWebViewController {
         if #available(iOS 11, *) {
             webView?.scrollView.contentInsetAdjustmentBehavior = .never
         }
-        if parent != nil && parent!.isKind(of: NJNavigationController.classForCoder()) {
+        if parent != nil && parent!.isKind(of: UINavigationController.classForCoder()) {
             var contentInset = webView!.scrollView.contentInset
             contentInset.top += nj_navigationBar.frame.size.height
             webView?.scrollView.contentInset = contentInset
@@ -256,8 +257,12 @@ extension NJWebViewController: NJWebViewControllerDelegate {
     public func webViewCloseBtnClick(_ webView: WKWebView, _ controller: NJWebViewController, _ btn: UIButton?) {
         if (navigationController?.presentedViewController != nil || navigationController?.presentingViewController != nil) && navigationController?.childViewControllers.count == 1 {
             dismiss(animated: true, completion: nil)
-        }else {
-            navigationController?.popViewController(animated: true)
+        }else if let navVc = navigationController {
+            if navVc.childViewControllers.count > 1 {
+                navVc.popViewController(animated: true)
+            }
+        }else if (presentationController != nil || presentedViewController != nil) {
+            dismiss(animated: true, completion: nil)
         }
     }
 }

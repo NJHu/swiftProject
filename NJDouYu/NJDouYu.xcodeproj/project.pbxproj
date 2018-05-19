@@ -14,6 +14,13 @@
 		589F3CF120ADBA960020DBE4 /* NJMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF020ADBA960020DBE4 /* NJMeViewController.swift */; };
 		589F3CF320B019AE0020DBE4 /* NJRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF220B019AE0020DBE4 /* NJRefreshNormalHeader.swift */; };
 		589F3CF520B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF420B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift */; };
+		589F3CF820B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF720B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift */; };
+		589F3CFD20B02F0D0020DBE4 /* NJNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CFC20B02F0D0020DBE4 /* NJNetworkTool.swift */; };
+		589F3CFF20B031790020DBE4 /* NJLiveShowListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CFE20B031790020DBE4 /* NJLiveShowListViewModel.swift */; };
+		589F3D0120B031870020DBE4 /* NJLiveShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3D0020B031870020DBE4 /* NJLiveShowViewModel.swift */; };
+		589F3D0320B031910020DBE4 /* NJLiveShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3D0220B031910020DBE4 /* NJLiveShow.swift */; };
+		589F3D0520B031A60020DBE4 /* NJLiveShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3D0420B031A60020DBE4 /* NJLiveShowCell.swift */; };
+		589F3D0720B034AC0020DBE4 /* NJLiveShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589F3D0620B034AB0020DBE4 /* NJLiveShowCell.xib */; };
 		589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FC67220AD737F00AF3144 /* NJWebViewController.swift */; };
 		589FC67520AD785B00AF3144 /* NJNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FC67420AD785B00AF3144 /* NJNavigationBar.swift */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
@@ -62,6 +69,13 @@
 		589F3CF020ADBA960020DBE4 /* NJMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJMeViewController.swift; sourceTree = "<group>"; };
 		589F3CF220B019AE0020DBE4 /* NJRefreshNormalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJRefreshNormalHeader.swift; sourceTree = "<group>"; };
 		589F3CF420B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJRefreshAutoNormalFooter.swift; sourceTree = "<group>"; };
+		589F3CF720B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJTrendsLiveShowViewController.swift; sourceTree = "<group>"; };
+		589F3CFC20B02F0D0020DBE4 /* NJNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJNetworkTool.swift; sourceTree = "<group>"; };
+		589F3CFE20B031790020DBE4 /* NJLiveShowListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShowListViewModel.swift; sourceTree = "<group>"; };
+		589F3D0020B031870020DBE4 /* NJLiveShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShowViewModel.swift; sourceTree = "<group>"; };
+		589F3D0220B031910020DBE4 /* NJLiveShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShow.swift; sourceTree = "<group>"; };
+		589F3D0420B031A60020DBE4 /* NJLiveShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShowCell.swift; sourceTree = "<group>"; };
+		589F3D0620B034AB0020DBE4 /* NJLiveShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLiveShowCell.xib; sourceTree = "<group>"; };
 		589FC67220AD737F00AF3144 /* NJWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJWebViewController.swift; sourceTree = "<group>"; };
 		589FC67420AD785B00AF3144 /* NJNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJNavigationBar.swift; sourceTree = "<group>"; };
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +144,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		589F3CF620B023B10020DBE4 /* Trends */ = {
+			isa = PBXGroup;
+			children = (
+				589F3CF720B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift */,
+				589F3CF920B02E3F0020DBE4 /* Model */,
+				589F3CFA20B02E3F0020DBE4 /* View */,
+				589F3CFB20B02E3F0020DBE4 /* ViewModel */,
+			);
+			path = Trends;
+			sourceTree = "<group>";
+		};
+		589F3CF920B02E3F0020DBE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				589F3D0220B031910020DBE4 /* NJLiveShow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		589F3CFA20B02E3F0020DBE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				589F3D0420B031A60020DBE4 /* NJLiveShowCell.swift */,
+				589F3D0620B034AB0020DBE4 /* NJLiveShowCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		589F3CFB20B02E3F0020DBE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				589F3D0020B031870020DBE4 /* NJLiveShowViewModel.swift */,
+				589F3CFE20B031790020DBE4 /* NJLiveShowListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		58B36C0B20AAFD8200915868 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +241,7 @@
 				58B36C4920AAFE2700915868 /* Network */,
 				58B36C4A20AAFE2700915868 /* NJBase */,
 				58B36C5320AAFE2700915868 /* Main */,
+				589F3CF620B023B10020DBE4 /* Trends */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -204,6 +256,7 @@
 		58B36C4920AAFE2700915868 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				589F3CFC20B02F0D0020DBE4 /* NJNetworkTool.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -379,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B36C6020AAFF8800915868 /* NJLanuchScreen.xib in Resources */,
+				589F3D0720B034AC0020DBE4 /* NJLiveShowCell.xib in Resources */,
 				58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,13 +599,17 @@
 				58B36C5920AAFE2700915868 /* NJRefreshCollectionViewController.swift in Sources */,
 				58B36C5820AAFE2700915868 /* NJNavigationController.swift in Sources */,
 				58B36C5C20AAFE2700915868 /* NJTableViewController.swift in Sources */,
+				589F3D0320B031910020DBE4 /* NJLiveShow.swift in Sources */,
+				589F3D0120B031870020DBE4 /* NJLiveShowViewModel.swift in Sources */,
 				589F3CEB20ADBA7A0020DBE4 /* NJCategoryViewController.swift in Sources */,
 				589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */,
 				58B36C5B20AAFE2700915868 /* NJViewController.swift in Sources */,
+				589F3D0520B031A60020DBE4 /* NJLiveShowCell.swift in Sources */,
 				589F3CE920ADBA580020DBE4 /* NJHomeViewController.swift in Sources */,
 				58B36C5D20AAFE2700915868 /* NJCollectionViewController.swift in Sources */,
 				589F3CF520B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift in Sources */,
 				58B36C5720AAFE2700915868 /* NJNavBarViewController.swift in Sources */,
+				589F3CFF20B031790020DBE4 /* NJLiveShowListViewModel.swift in Sources */,
 				589FC67520AD785B00AF3144 /* NJNavigationBar.swift in Sources */,
 				58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */,
 				589F3CEF20ADBA8E0020DBE4 /* NJFishBarViewController.swift in Sources */,
@@ -559,6 +617,8 @@
 				589F3CF320B019AE0020DBE4 /* NJRefreshNormalHeader.swift in Sources */,
 				58B36C5A20AAFE2700915868 /* NJRefreshTableViewController.swift in Sources */,
 				589F3CED20ADBA840020DBE4 /* NJTrendsViewController.swift in Sources */,
+				589F3CF820B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift in Sources */,
+				589F3CFD20B02F0D0020DBE4 /* NJNetworkTool.swift in Sources */,
 				58B36C5E20AAFE2700915868 /* NJTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

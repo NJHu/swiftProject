@@ -12,7 +12,7 @@ class NJFishBarViewController: NJViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        nj_isBackActionBtnHidden = true
     }
 
 }

@@ -12,6 +12,6 @@ class NJMeViewController: NJTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        nj_isBackActionBtnHidden = true
     }
 }
