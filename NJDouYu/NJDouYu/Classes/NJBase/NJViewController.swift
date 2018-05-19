@@ -15,4 +15,7 @@ class NJViewController: NJNavBarViewController {
         view.backgroundColor = UIColor.groupTableViewBackground
         automaticallyAdjustsScrollViewInsets = false
     }
+    deinit {
+        print("deinit-\(self)")
+    }
 }
