@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (4.7.2)
   - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
 
 DEPENDENCIES:
   - Alamofire
   - Masonry
+  - MJRefresh
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
 
-PODFILE CHECKSUM: 8c7dbb2e5b2a7bf6705a66d9a0707ff0e1a523d6
+PODFILE CHECKSUM: c7af1bdfc974d7182986839e7b8b4822592a00bf
 
 COCOAPODS: 1.2.0

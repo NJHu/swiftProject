@@ -10,7 +10,7 @@ import UIKit
 
 class NJTableViewController: NJViewController {
     
-    @IBOutlet var tableView: UITableView?
+    @IBOutlet var tableView: UITableView!
     private var style: UITableViewStyle = .plain
     
     init(tableViewStyle: UITableViewStyle) {

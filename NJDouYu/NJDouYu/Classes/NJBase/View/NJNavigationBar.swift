@@ -31,7 +31,7 @@ class NJNavigationBar: UIView {
         backgroundColor = UIColor.white
         addSubview(bottomSepLineView)
         addSubview(titleLabel)
-        bottomSepLineView.backgroundColor = UIColor.lightGray
+        bottomSepLineView.backgroundColor = UIColor.darkGray
         titleLabel.numberOfLines = 0
         titleLabel.textAlignment = .center
         titleLabel.textColor = UIColor.black
@@ -45,7 +45,7 @@ class NJNavigationBar: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        bottomSepLineView.frame = CGRect(x: 0, y: frame.size.height, width: frame.size.width, height: 0.5)
+        bottomSepLineView.frame = CGRect(x: 0, y: frame.size.height, width: frame.size.width, height: 1.0 / UIScreen.main.scale)
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         

@@ -4,9 +4,12 @@ platform :ios, '10.3'
 use_frameworks!
 
 target 'NJDouYu' do
+    
+inhibit_all_warnings!
 
   pod 'Alamofire'
   pod 'Masonry'
+  pod 'MJRefresh'
 
   target 'NJDouYuTests' do
     inherit! :search_paths

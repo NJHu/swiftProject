@@ -10,7 +10,7 @@ import UIKit
 
 class NJCollectionViewController: NJViewController {
 
-    @IBOutlet var collectionView: UICollectionView?
+    @IBOutlet var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

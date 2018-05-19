@@ -21,7 +21,7 @@ class NJWebViewController: NJViewController {
     
     public var isNeedProgressLine: Bool = true
     public var isAutoChangeTitle: Bool = true
-    public var webView: WKWebView? = nil
+    public var webView: WKWebView!
     public var html: String? = nil
     private lazy var closeBtn: UIButton = UIButton(type: UIButtonType.custom)
     private lazy var backBtn: UIButton = UIButton(type: UIButtonType.custom)
