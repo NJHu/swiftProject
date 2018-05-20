@@ -9,5 +9,8 @@
 import UIKit
 
 class NJLiveShowViewModel: NSObject {
-
+    public var liveShow: NJLiveShow
+    public init(_ liveShow: NJLiveShow) {
+        self.liveShow = liveShow
+    }
 }

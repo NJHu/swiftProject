@@ -10,6 +10,7 @@ inhibit_all_warnings!
   pod 'Alamofire'
   pod 'Masonry'
   pod 'MJRefresh'
+  pod 'SDWebImage'
 
   target 'NJDouYuTests' do
     inherit! :search_paths

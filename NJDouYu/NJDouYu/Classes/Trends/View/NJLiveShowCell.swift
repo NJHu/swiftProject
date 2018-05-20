@@ -7,7 +7,20 @@
 //
 
 import UIKit
+import SDWebImage
 
 class NJLiveShowCell: UICollectionViewCell {
     
+    
+    @IBOutlet weak var srcImageView: UIImageView!
+    
+    @IBOutlet weak var roomNameLabel: UILabel!
+    
+    
+    var liveShowViewModel: NJLiveShowViewModel? {
+        didSet {
+            self.roomNameLabel.text = liveShowViewModel?.liveShow.room_name
+            self.srcImageView.sd_setImage(with: URL(string: (liveShowViewModel?.liveShow.room_src)!), completed: nil)
+        }
+    }
 }

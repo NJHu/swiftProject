@@ -4,3 +4,4 @@
 
 #import <MJRefresh/MJRefreshAutoNormalFooter.h>
 #import <MJRefresh/MJRefreshNormalHeader.h>
+#import <SDWebImage/UIImageView+WebCache.h>
