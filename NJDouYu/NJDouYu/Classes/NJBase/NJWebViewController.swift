@@ -79,8 +79,10 @@ extension NJWebViewController {
         preferences.javaScriptCanOpenWindowsAutomatically = true;
         webView?.configuration.preferences = preferences
         
+        webView?.configuration.userContentController = WKUserContentController()
+        
         // 检测各种特殊的字符串：比如电话、网站
-        webView?.configuration.dataDetectorTypes = .all;
+        webView?.configuration.dataDetectorTypes = .all
         // 播放视频
         webView?.configuration.allowsInlineMediaPlayback = true;
         
@@ -91,6 +93,8 @@ extension NJWebViewController {
         webView?.backgroundColor = UIColor.clear
         
         webView?.allowsBackForwardNavigationGestures = true
+        
+        webView?.allowsLinkPreview = true
         
         webView?.uiDelegate = self;
         
