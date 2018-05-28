@@ -12,7 +12,6 @@ import UIKit
 class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    lazy var appServices: [NJAppService] = [NJAppUIService(), NJPushService()]
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
