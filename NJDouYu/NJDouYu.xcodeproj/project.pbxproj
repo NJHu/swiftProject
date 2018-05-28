@@ -37,6 +37,9 @@
 		58B36C5D20AAFE2700915868 /* NJCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C5220AAFE2700915868 /* NJCollectionViewController.swift */; };
 		58B36C5E20AAFE2700915868 /* NJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C5420AAFE2700915868 /* NJTabBarController.swift */; };
 		58B36C6020AAFF8800915868 /* NJLanuchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C5F20AAFF8800915868 /* NJLanuchScreen.xib */; };
+		58EFE42A20BBCCBF004AC7B6 /* NJAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EFE42920BBCCBF004AC7B6 /* NJAppService.swift */; };
+		58EFE42C20BBCCE9004AC7B6 /* NJAppUIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EFE42B20BBCCE9004AC7B6 /* NJAppUIService.swift */; };
+		58EFE42E20BBCD42004AC7B6 /* NJPushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EFE42D20BBCD42004AC7B6 /* NJPushService.swift */; };
 		84B2026AEAF8CB3554F9FDF6 /* Pods_NJDouYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36195BC68DD83288460F65A /* Pods_NJDouYu.framework */; };
 		B25D9A0FCD1CA39374DD3E84 /* Pods_NJDouYuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */; };
 		FD6978F80AD91A3A1C856618 /* Pods_NJDouYuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */; };
@@ -100,6 +103,9 @@
 		58B36C5220AAFE2700915868 /* NJCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJCollectionViewController.swift; sourceTree = "<group>"; };
 		58B36C5420AAFE2700915868 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
 		58B36C5F20AAFF8800915868 /* NJLanuchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLanuchScreen.xib; sourceTree = "<group>"; };
+		58EFE42920BBCCBF004AC7B6 /* NJAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJAppService.swift; sourceTree = "<group>"; };
+		58EFE42B20BBCCE9004AC7B6 /* NJAppUIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJAppUIService.swift; sourceTree = "<group>"; };
+		58EFE42D20BBCD42004AC7B6 /* NJPushService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJPushService.swift; sourceTree = "<group>"; };
 		76C63CACA4FC8CDA0B3CB770 /* Pods-NJDouYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu.debug.xcconfig"; sourceTree = "<group>"; };
 		7BDE2759E981D9ABC2F5B443 /* Pods-NJDouYuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +216,9 @@
 			children = (
 				58B36C2320AAFD8200915868 /* Info.plist */,
 				58B36C4620AAFE2700915868 /* NJAppDelegate.swift */,
+				58EFE42920BBCCBF004AC7B6 /* NJAppService.swift */,
+				58EFE42B20BBCCE9004AC7B6 /* NJAppUIService.swift */,
+				58EFE42D20BBCD42004AC7B6 /* NJPushService.swift */,
 				58B36C4520AAFE2600915868 /* NJDouyuOC2SwiftBridge.h */,
 				58B36C5F20AAFF8800915868 /* NJLanuchScreen.xib */,
 				58B36C4720AAFE2700915868 /* Classes */,
@@ -604,6 +613,7 @@
 				58B36C5C20AAFE2700915868 /* NJTableViewController.swift in Sources */,
 				589F3D0320B031910020DBE4 /* NJLiveShow.swift in Sources */,
 				589F3D0120B031870020DBE4 /* NJLiveShowViewModel.swift in Sources */,
+				58EFE42A20BBCCBF004AC7B6 /* NJAppService.swift in Sources */,
 				589F3CEB20ADBA7A0020DBE4 /* NJCategoryViewController.swift in Sources */,
 				589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */,
 				58B36C5B20AAFE2700915868 /* NJViewController.swift in Sources */,
@@ -617,9 +627,11 @@
 				589FC67520AD785B00AF3144 /* NJNavigationBar.swift in Sources */,
 				58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */,
 				589F3CEF20ADBA8E0020DBE4 /* NJFishBarViewController.swift in Sources */,
+				58EFE42C20BBCCE9004AC7B6 /* NJAppUIService.swift in Sources */,
 				589F3CF120ADBA960020DBE4 /* NJMeViewController.swift in Sources */,
 				589F3CF320B019AE0020DBE4 /* NJRefreshNormalHeader.swift in Sources */,
 				58B36C5A20AAFE2700915868 /* NJRefreshTableViewController.swift in Sources */,
+				58EFE42E20BBCD42004AC7B6 /* NJPushService.swift in Sources */,
 				589F3CED20ADBA840020DBE4 /* NJTrendsViewController.swift in Sources */,
 				589F3CF820B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift in Sources */,
 				589F3CFD20B02F0D0020DBE4 /* NJNetworkTool.swift in Sources */,

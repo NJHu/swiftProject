@@ -12,6 +12,7 @@ import UIKit
 class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    lazy var appServices: [NJAppService] = [NJAppUIService(), NJPushService()]
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
@@ -19,7 +20,6 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = NJTabBarController()
-        
         return true
     }
     
