@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NJKit
 
 class NJTabBarController: UITabBarController {
     

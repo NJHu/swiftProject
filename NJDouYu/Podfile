@@ -1,26 +1,51 @@
 
+def public_pods
+
+source 'https://github.com/CocoaPods/Specs.git' # 公有源
+
+pod 'Alamofire'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'SDWebImage'
+
+end
+
+def njspec_pods
+    
+    source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
+    pod 'NJKit'
+    #pod 'NJKit', :path => '../../NJKit/'
+    #pod 'DYIJKPlayerComponent', :git => 'git@mgit.dz11.com:douyu-ios/DYIJKPlayerComponent.git', :commit => '610ec07e465c19a83e9a41d7dacfaa55b4248750' #'0.1.4' # 播放器组件
+    #pod 'DYDanmakuDebug', '2.8.8' , :configuration => 'Debug' # 弹幕库 debug
+    #pod 'DYDanmaku', '2.8.8', :configuration => 'Release' # 弹幕库 release
+    #pod 'DYGambleBusinessKit', :path => '../DYGambleBusinessKit/'
+    #pod 'DYStarMagicBusinessKit','0.1.2'
+    
+end
+
+
+
 platform :ios, '10.3'
 
 use_frameworks!
 
 target 'NJDouYu' do
     
-inhibit_all_warnings!
-
-  pod 'Alamofire'
-  pod 'Masonry'
-  pod 'MJRefresh'
-  pod 'SDWebImage'
-
-  target 'NJDouYuTests' do
-    inherit! :search_paths
-
-  end
-
-  target 'NJDouYuUITests' do
-    inherit! :search_paths
-
-
-  end
-
+    inhibit_all_warnings!
+    
+    njspec_pods
+    
+    public_pods
+    
+    target 'NJDouYuTests' do
+        inherit! :search_paths
+        
+    end
+    
+    target 'NJDouYuUITests' do
+        inherit! :search_paths
+        
+        
+    end
+    
 end

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NJKit
 import MJRefresh
 
 class NJTrendsLiveShowViewController: NJRefreshCollectionViewController {

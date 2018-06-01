@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NJKit
 
 class NJHomeViewController: NJViewController {
 
@@ -19,8 +20,8 @@ class NJHomeViewController: NJViewController {
 
 extension NJHomeViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let webVc = NJWebViewController()
-        webVc.gotoUrl = "https://baidu.com"
+        let webVc = NJViewController()
+//        webVc.gotoUrl = "https://baidu.com"
         navigationController?.pushViewController(webVc, animated: true)
     }
 }

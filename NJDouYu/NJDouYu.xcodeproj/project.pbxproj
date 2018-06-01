@@ -12,31 +12,18 @@
 		589F3CED20ADBA840020DBE4 /* NJTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CEC20ADBA840020DBE4 /* NJTrendsViewController.swift */; };
 		589F3CEF20ADBA8E0020DBE4 /* NJFishBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CEE20ADBA8E0020DBE4 /* NJFishBarViewController.swift */; };
 		589F3CF120ADBA960020DBE4 /* NJMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF020ADBA960020DBE4 /* NJMeViewController.swift */; };
-		589F3CF320B019AE0020DBE4 /* NJRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF220B019AE0020DBE4 /* NJRefreshNormalHeader.swift */; };
-		589F3CF520B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF420B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift */; };
 		589F3CF820B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CF720B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift */; };
-		589F3CFD20B02F0D0020DBE4 /* NJNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CFC20B02F0D0020DBE4 /* NJNetworkTool.swift */; };
 		589F3CFF20B031790020DBE4 /* NJLiveShowListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3CFE20B031790020DBE4 /* NJLiveShowListViewModel.swift */; };
 		589F3D0120B031870020DBE4 /* NJLiveShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3D0020B031870020DBE4 /* NJLiveShowViewModel.swift */; };
 		589F3D0320B031910020DBE4 /* NJLiveShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3D0220B031910020DBE4 /* NJLiveShow.swift */; };
 		589F3D0520B031A60020DBE4 /* NJLiveShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3D0420B031A60020DBE4 /* NJLiveShowCell.swift */; };
 		589F3D0720B034AC0020DBE4 /* NJLiveShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589F3D0620B034AB0020DBE4 /* NJLiveShowCell.xib */; };
-		589F3D0920B10C330020DBE4 /* NJImageView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F3D0820B10C330020DBE4 /* NJImageView+Image.swift */; };
-		589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FC67220AD737F00AF3144 /* NJWebViewController.swift */; };
-		589FC67520AD785B00AF3144 /* NJNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FC67420AD785B00AF3144 /* NJNavigationBar.swift */; };
+		58A5A24720C10905008BDBA1 /* NJLanuchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
 		58B36C2D20AAFD8200915868 /* NJDouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */; };
 		58B36C3820AAFD8200915868 /* NJDouYuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C3720AAFD8200915868 /* NJDouYuUITests.swift */; };
 		58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C4620AAFE2700915868 /* NJAppDelegate.swift */; };
-		58B36C5720AAFE2700915868 /* NJNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C4B20AAFE2700915868 /* NJNavBarViewController.swift */; };
-		58B36C5820AAFE2700915868 /* NJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C4C20AAFE2700915868 /* NJNavigationController.swift */; };
-		58B36C5920AAFE2700915868 /* NJRefreshCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C4D20AAFE2700915868 /* NJRefreshCollectionViewController.swift */; };
-		58B36C5A20AAFE2700915868 /* NJRefreshTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C4E20AAFE2700915868 /* NJRefreshTableViewController.swift */; };
-		58B36C5B20AAFE2700915868 /* NJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C4F20AAFE2700915868 /* NJViewController.swift */; };
-		58B36C5C20AAFE2700915868 /* NJTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C5020AAFE2700915868 /* NJTableViewController.swift */; };
-		58B36C5D20AAFE2700915868 /* NJCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C5220AAFE2700915868 /* NJCollectionViewController.swift */; };
 		58B36C5E20AAFE2700915868 /* NJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C5420AAFE2700915868 /* NJTabBarController.swift */; };
-		58B36C6020AAFF8800915868 /* NJLanuchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C5F20AAFF8800915868 /* NJLanuchScreen.xib */; };
 		84B2026AEAF8CB3554F9FDF6 /* Pods_NJDouYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36195BC68DD83288460F65A /* Pods_NJDouYu.framework */; };
 		B25D9A0FCD1CA39374DD3E84 /* Pods_NJDouYuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */; };
 		FD6978F80AD91A3A1C856618 /* Pods_NJDouYuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */; };
@@ -68,18 +55,13 @@
 		589F3CEC20ADBA840020DBE4 /* NJTrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJTrendsViewController.swift; sourceTree = "<group>"; };
 		589F3CEE20ADBA8E0020DBE4 /* NJFishBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJFishBarViewController.swift; sourceTree = "<group>"; };
 		589F3CF020ADBA960020DBE4 /* NJMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJMeViewController.swift; sourceTree = "<group>"; };
-		589F3CF220B019AE0020DBE4 /* NJRefreshNormalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJRefreshNormalHeader.swift; sourceTree = "<group>"; };
-		589F3CF420B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJRefreshAutoNormalFooter.swift; sourceTree = "<group>"; };
 		589F3CF720B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJTrendsLiveShowViewController.swift; sourceTree = "<group>"; };
-		589F3CFC20B02F0D0020DBE4 /* NJNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJNetworkTool.swift; sourceTree = "<group>"; };
 		589F3CFE20B031790020DBE4 /* NJLiveShowListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShowListViewModel.swift; sourceTree = "<group>"; };
 		589F3D0020B031870020DBE4 /* NJLiveShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShowViewModel.swift; sourceTree = "<group>"; };
 		589F3D0220B031910020DBE4 /* NJLiveShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShow.swift; sourceTree = "<group>"; };
 		589F3D0420B031A60020DBE4 /* NJLiveShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJLiveShowCell.swift; sourceTree = "<group>"; };
 		589F3D0620B034AB0020DBE4 /* NJLiveShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLiveShowCell.xib; sourceTree = "<group>"; };
-		589F3D0820B10C330020DBE4 /* NJImageView+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NJImageView+Image.swift"; sourceTree = "<group>"; };
-		589FC67220AD737F00AF3144 /* NJWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJWebViewController.swift; sourceTree = "<group>"; };
-		589FC67420AD785B00AF3144 /* NJNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJNavigationBar.swift; sourceTree = "<group>"; };
+		58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLanuchScreen.xib; sourceTree = "<group>"; };
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36C1E20AAFD8200915868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58B36C2320AAFD8200915868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,15 +73,7 @@
 		58B36C3920AAFD8200915868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58B36C4520AAFE2600915868 /* NJDouyuOC2SwiftBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJDouyuOC2SwiftBridge.h; sourceTree = "<group>"; };
 		58B36C4620AAFE2700915868 /* NJAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJAppDelegate.swift; sourceTree = "<group>"; };
-		58B36C4B20AAFE2700915868 /* NJNavBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJNavBarViewController.swift; sourceTree = "<group>"; };
-		58B36C4C20AAFE2700915868 /* NJNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJNavigationController.swift; sourceTree = "<group>"; };
-		58B36C4D20AAFE2700915868 /* NJRefreshCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJRefreshCollectionViewController.swift; sourceTree = "<group>"; };
-		58B36C4E20AAFE2700915868 /* NJRefreshTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJRefreshTableViewController.swift; sourceTree = "<group>"; };
-		58B36C4F20AAFE2700915868 /* NJViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJViewController.swift; sourceTree = "<group>"; };
-		58B36C5020AAFE2700915868 /* NJTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTableViewController.swift; sourceTree = "<group>"; };
-		58B36C5220AAFE2700915868 /* NJCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJCollectionViewController.swift; sourceTree = "<group>"; };
 		58B36C5420AAFE2700915868 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
-		58B36C5F20AAFF8800915868 /* NJLanuchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLanuchScreen.xib; sourceTree = "<group>"; };
 		76C63CACA4FC8CDA0B3CB770 /* Pods-NJDouYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu.debug.xcconfig"; sourceTree = "<group>"; };
 		7BDE2759E981D9ABC2F5B443 /* Pods-NJDouYuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,7 +185,7 @@
 				58B36C2320AAFD8200915868 /* Info.plist */,
 				58B36C4620AAFE2700915868 /* NJAppDelegate.swift */,
 				58B36C4520AAFE2600915868 /* NJDouyuOC2SwiftBridge.h */,
-				58B36C5F20AAFF8800915868 /* NJLanuchScreen.xib */,
+				58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */,
 				58B36C4720AAFE2700915868 /* Classes */,
 				58B36C1E20AAFD8200915868 /* Assets.xcassets */,
 			);
@@ -239,55 +213,10 @@
 		58B36C4720AAFE2700915868 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				58B36C4820AAFE2700915868 /* Category */,
-				58B36C4920AAFE2700915868 /* Network */,
-				58B36C4A20AAFE2700915868 /* NJBase */,
 				58B36C5320AAFE2700915868 /* Main */,
 				589F3CF620B023B10020DBE4 /* Trends */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		58B36C4820AAFE2700915868 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				589F3D0820B10C330020DBE4 /* NJImageView+Image.swift */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		58B36C4920AAFE2700915868 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				589F3CFC20B02F0D0020DBE4 /* NJNetworkTool.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		58B36C4A20AAFE2700915868 /* NJBase */ = {
-			isa = PBXGroup;
-			children = (
-				58B36C4C20AAFE2700915868 /* NJNavigationController.swift */,
-				58B36C4B20AAFE2700915868 /* NJNavBarViewController.swift */,
-				58B36C4F20AAFE2700915868 /* NJViewController.swift */,
-				58B36C5020AAFE2700915868 /* NJTableViewController.swift */,
-				58B36C5220AAFE2700915868 /* NJCollectionViewController.swift */,
-				589FC67220AD737F00AF3144 /* NJWebViewController.swift */,
-				58B36C4E20AAFE2700915868 /* NJRefreshTableViewController.swift */,
-				58B36C4D20AAFE2700915868 /* NJRefreshCollectionViewController.swift */,
-				58B36C5120AAFE2700915868 /* View */,
-			);
-			path = NJBase;
-			sourceTree = "<group>";
-		};
-		58B36C5120AAFE2700915868 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				589FC67420AD785B00AF3144 /* NJNavigationBar.swift */,
-				589F3CF220B019AE0020DBE4 /* NJRefreshNormalHeader.swift */,
-				589F3CF420B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		58B36C5320AAFE2700915868 /* Main */ = {
@@ -328,7 +257,6 @@
 				58B36C1120AAFD8200915868 /* Frameworks */,
 				58B36C1220AAFD8200915868 /* Resources */,
 				F12B7AECA45FC8A1AD4A715E /* [CP] Embed Pods Frameworks */,
-				69A15642D993A3E215B06AB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,8 +275,6 @@
 				58B36C2420AAFD8200915868 /* Sources */,
 				58B36C2520AAFD8200915868 /* Frameworks */,
 				58B36C2620AAFD8200915868 /* Resources */,
-				614D40E4098505A394A3AAB3 /* [CP] Embed Pods Frameworks */,
-				A642D2DB1B8C259FF155DF0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,8 +294,6 @@
 				58B36C2F20AAFD8200915868 /* Sources */,
 				58B36C3020AAFD8200915868 /* Frameworks */,
 				58B36C3120AAFD8200915868 /* Resources */,
-				3FD888768A1BC7FB71A9F209 /* [CP] Embed Pods Frameworks */,
-				D59D9815FAFFBAD29F359224 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,7 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B36C6020AAFF8800915868 /* NJLanuchScreen.xib in Resources */,
+				58A5A24720C10905008BDBA1 /* NJLanuchScreen.xib in Resources */,
 				589F3D0720B034AC0020DBE4 /* NJLiveShowCell.xib in Resources */,
 				58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */,
 			);
@@ -463,58 +387,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NJDouYuTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3FD888768A1BC7FB71A9F209 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		614D40E4098505A394A3AAB3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		69A15642D993A3E215B06AB0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		877C833CAECBC0D3EB568E68 /* [CP] Check Pods Manifest.lock */ = {
@@ -523,13 +405,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NJDouYu-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		91E9140D8442636F9F14F34D /* [CP] Check Pods Manifest.lock */ = {
@@ -538,43 +423,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NJDouYuUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A642D2DB1B8C259FF155DF0E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D59D9815FAFFBAD29F359224 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F12B7AECA45FC8A1AD4A715E /* [CP] Embed Pods Frameworks */ = {
@@ -583,9 +441,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/NJKit/NJKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -599,30 +468,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B36C5920AAFE2700915868 /* NJRefreshCollectionViewController.swift in Sources */,
-				58B36C5820AAFE2700915868 /* NJNavigationController.swift in Sources */,
-				58B36C5C20AAFE2700915868 /* NJTableViewController.swift in Sources */,
 				589F3D0320B031910020DBE4 /* NJLiveShow.swift in Sources */,
 				589F3D0120B031870020DBE4 /* NJLiveShowViewModel.swift in Sources */,
 				589F3CEB20ADBA7A0020DBE4 /* NJCategoryViewController.swift in Sources */,
-				589FC67320AD737F00AF3144 /* NJWebViewController.swift in Sources */,
-				58B36C5B20AAFE2700915868 /* NJViewController.swift in Sources */,
-				589F3D0920B10C330020DBE4 /* NJImageView+Image.swift in Sources */,
 				589F3D0520B031A60020DBE4 /* NJLiveShowCell.swift in Sources */,
 				589F3CE920ADBA580020DBE4 /* NJHomeViewController.swift in Sources */,
-				58B36C5D20AAFE2700915868 /* NJCollectionViewController.swift in Sources */,
-				589F3CF520B019BE0020DBE4 /* NJRefreshAutoNormalFooter.swift in Sources */,
-				58B36C5720AAFE2700915868 /* NJNavBarViewController.swift in Sources */,
 				589F3CFF20B031790020DBE4 /* NJLiveShowListViewModel.swift in Sources */,
-				589FC67520AD785B00AF3144 /* NJNavigationBar.swift in Sources */,
 				58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */,
 				589F3CEF20ADBA8E0020DBE4 /* NJFishBarViewController.swift in Sources */,
 				589F3CF120ADBA960020DBE4 /* NJMeViewController.swift in Sources */,
-				589F3CF320B019AE0020DBE4 /* NJRefreshNormalHeader.swift in Sources */,
-				58B36C5A20AAFE2700915868 /* NJRefreshTableViewController.swift in Sources */,
 				589F3CED20ADBA840020DBE4 /* NJTrendsViewController.swift in Sources */,
 				589F3CF820B023EA0020DBE4 /* NJTrendsLiveShowViewController.swift in Sources */,
-				589F3CFD20B02F0D0020DBE4 /* NJNetworkTool.swift in Sources */,
 				58B36C5E20AAFE2700915868 /* NJTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -775,6 +631,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44HDC9YG72;
 				ENABLE_BITCODE = NO;
@@ -783,6 +640,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = NJDouYu/NJDouyuOC2SwiftBridge.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -798,6 +656,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44HDC9YG72;
 				ENABLE_BITCODE = NO;
@@ -806,6 +665,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = NJDouYu/NJDouyuOC2SwiftBridge.h;
 				SWIFT_VERSION = 4.0;
