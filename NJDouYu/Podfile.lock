@@ -3,7 +3,9 @@ PODS:
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.3)
   - NJKit (1.0.6):
+    - Alamofire
     - Masonry
+    - MJRefresh
     - SDWebImage
   - SDWebImage (4.4.0):
     - SDWebImage/Core (= 4.4.0)
@@ -31,7 +33,7 @@ SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  NJKit: ceea39ed5467fa0fe0b59835238815a51b324da5
+  NJKit: 0961d45109175209b281c36a54d5a2922b8133b4
   SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
 
 PODFILE CHECKSUM: bcd3c0687159f3a0a8edbbcfd98d5b9a9f050e2f
