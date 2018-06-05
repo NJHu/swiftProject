@@ -14,7 +14,9 @@ def njspec_pods
     
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
     pod 'NJKit'
-    #pod 'NJKit', :path => '../../NJKit/'
+#    pod 'NJKit', :path => '../../NJKit/'
+    pod 'DYTrends'
+#    pod 'DYTrends', :path => '../../DYTrends/'
     #pod 'DYIJKPlayerComponent', :git => 'git@mgit.dz11.com:douyu-ios/DYIJKPlayerComponent.git', :commit => '610ec07e465c19a83e9a41d7dacfaa55b4248750' #'0.1.4' # 播放器组件
     #pod 'DYDanmakuDebug', '2.8.8' , :configuration => 'Debug' # 弹幕库 debug
     #pod 'DYDanmaku', '2.8.8', :configuration => 'Release' # 弹幕库 release

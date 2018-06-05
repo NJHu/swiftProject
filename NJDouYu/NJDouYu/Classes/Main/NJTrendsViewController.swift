@@ -8,6 +8,7 @@
 
 import UIKit
 import NJKit
+import DYTrends
 
 class NJTrendsViewController: NJViewController {
 
