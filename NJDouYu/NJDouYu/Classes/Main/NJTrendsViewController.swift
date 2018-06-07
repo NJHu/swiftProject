@@ -8,7 +8,7 @@
 
 import UIKit
 import NJKit
-import DYTrends
+import NJMediator_DYTrends
 
 class NJTrendsViewController: NJViewController {
 
@@ -23,9 +23,11 @@ class NJTrendsViewController: NJViewController {
         scrollView.backgroundColor = UIColor.red
         scrollView.isPagingEnabled = true
         scrollView.showsHorizontalScrollIndicator = false
-        self.addChildViewController(NJTrendsLiveShowViewController())
         scrollView.contentSize = CGSize(width: contentViewSize.width * CGFloat(self.childViewControllers.count), height: contentViewSize.height)
-        scrollView.addSubview(self.childViewControllers.first!.view)
+        if let trendsVc = NJMediator.sharedMediator.DYTrends_MainController() {
+            self.addChildViewController(trendsVc)
+            scrollView.addSubview(self.childViewControllers.first!.view)
+        }
         self.childViewControllers.first?.view.frame.size = contentViewSize
     }
 }

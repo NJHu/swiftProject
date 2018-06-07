@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NJKit
 
 @UIApplicationMain
 class NJAppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +23,11 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        
+        return true;
+    }
 }
 
 
