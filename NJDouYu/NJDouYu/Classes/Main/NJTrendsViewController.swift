@@ -24,7 +24,7 @@ class NJTrendsViewController: NJViewController {
         scrollView.isPagingEnabled = true
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.contentSize = CGSize(width: contentViewSize.width * CGFloat(self.childViewControllers.count), height: contentViewSize.height)
-        if let trendsVc = NJMediator.sharedMediator.DYTrends_MainController() {
+        if let trendsVc = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
             self.addChildViewController(trendsVc)
             scrollView.addSubview(self.childViewControllers.first!.view)
         }

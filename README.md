@@ -1,6 +1,13 @@
-# swift项目(待完善) 
+# swift项目
+> 正在进行中, 逐渐完善文档和项目
 
 #### 组件仓库: https://github.com/NJHu/NJSpecs.git
+
+## 模块交互
+
+> **实线标识依赖和调用, 虚线表示动态调用**
+
+![](./images/mediator.png)
 
 ## 基类(待完善)
 
