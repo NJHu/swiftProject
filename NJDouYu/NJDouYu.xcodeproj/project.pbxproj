@@ -207,6 +207,7 @@
 				58B36C1120AAFD8200915868 /* Frameworks */,
 				58B36C1220AAFD8200915868 /* Resources */,
 				F12B7AECA45FC8A1AD4A715E /* [CP] Embed Pods Frameworks */,
+				295036422D05024FA373F88E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,6 +226,8 @@
 				58B36C2420AAFD8200915868 /* Sources */,
 				58B36C2520AAFD8200915868 /* Frameworks */,
 				58B36C2620AAFD8200915868 /* Resources */,
+				31DE935952F4536E4200F43E /* [CP] Embed Pods Frameworks */,
+				094534B6611F4FB2F5E2E241 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +247,8 @@
 				58B36C2F20AAFD8200915868 /* Sources */,
 				58B36C3020AAFD8200915868 /* Frameworks */,
 				58B36C3120AAFD8200915868 /* Resources */,
+				818B324E63FBDA22677F7A8F /* [CP] Embed Pods Frameworks */,
+				06A8E6A6AADF795DCDA73DBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,6 +335,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06A8E6A6AADF795DCDA73DBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		094534B6611F4FB2F5E2E241 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295036422D05024FA373F88E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31DE935952F4536E4200F43E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3DF45AA19FB9EEE620EC16A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +411,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		818B324E63FBDA22677F7A8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		877C833CAECBC0D3EB568E68 /* [CP] Check Pods Manifest.lock */ = {
