@@ -1,6 +1,6 @@
 # swift项目(待完善) 
 
-# 打算组件化, 思路构想中....
+# 组件仓库: https://github.com/NJHu/NJSpecs.git
 
 ## 基类(待完善)
 
