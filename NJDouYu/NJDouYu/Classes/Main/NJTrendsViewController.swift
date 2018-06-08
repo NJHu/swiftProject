@@ -8,6 +8,7 @@
 
 import UIKit
 import NJKit
+import NJMediator
 import NJMediator_DYTrends
 
 class NJTrendsViewController: NJViewController {
