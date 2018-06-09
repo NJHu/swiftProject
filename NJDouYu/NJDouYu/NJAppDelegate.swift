@@ -8,6 +8,7 @@
 
 import UIKit
 import NJKit
+import NJMediator
 
 @UIApplicationMain
 class NJAppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,8 +26,15 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         
+        var shouldOpen = true
         
-        return true;
+        _ = NJMediator.sharedMediator.perform(url: url) { (result: [String: AnyObject]?) in
+            if result?["error"] != nil {
+                shouldOpen = false
+            }
+        }
+        
+        return shouldOpen
     }
 }
 
