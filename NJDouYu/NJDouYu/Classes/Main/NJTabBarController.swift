@@ -35,8 +35,10 @@ extension NJTabBarController {
         addChildVC(childController: NJMeViewController(tableViewStyle: UITableViewStyle.grouped), tabBartitle: "我的", image: "btn_user_normal", selImage: "btn_user_selected")
     }
     private func addChildVC(childController: UIViewController, tabBartitle: String, image: String, selImage: String) {
-        childController.tabBarItem.image = UIImage(named: image)
-        childController.tabBarItem.selectedImage = UIImage(named: selImage)
+//        childController.tabBarItem.image = UIImage(named: image)
+//        childController.tabBarItem.selectedImage = UIImage(named: selImage)
+        childController.tabBarItem.image = UIImage.nj_imageFromXcassets(name: image, bundleClass: self.classForCoder)
+        childController.tabBarItem.selectedImage = UIImage.nj_imageFromXcassets(name: selImage, bundleClass: self.classForCoder)
         childController.tabBarItem.title = tabBartitle
         childController.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -3);
         tabBar.unselectedItemTintColor = UIColor.lightGray
