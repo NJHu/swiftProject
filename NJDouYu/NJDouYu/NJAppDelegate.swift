@@ -26,13 +26,15 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         
-        var shouldOpen = true
+        var shouldOpen = false
         
-        _ = NJMediator.sharedMediator.perform(url: url) { (result: [String: AnyObject]?) in
-            if result?["error"] != nil {
-                shouldOpen = false
+        let resultObj = NJMediator.sharedMediator.perform(url: url) { (result: [String: AnyObject]?) in
+            if result?["result"] != nil {
+                
             }
         }
+        
+        shouldOpen = resultObj?.boolValue ?? false;
         
         return shouldOpen
     }

@@ -3,44 +3,42 @@ def public_pods
 
 source 'https://github.com/CocoaPods/Specs.git' # 公有源
 
-pod 'Alamofire'
-pod 'Masonry'
-pod 'MJRefresh'
-pod 'SDWebImage'
-
 end
 
 def develop_local_pods
     pod 'NJKit', :path => '../../NJKit/'
     pod 'NJMediator', :path => '../../NJMediator/'
+    
     pod 'DYTrends', :path => '../../DYTrends/'
     pod 'NJMediator_DYTrends', :path => '../../NJMediator_DYTrends/'
+    
+    pod 'DYLiveShow', :path => '../../DYLiveShow/'
+    pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
 end
 
 def release_remote_pods
     
+    source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
+    
     pod 'NJKit'
-    #    pod 'NJKit', :git => 'https://github.com/njhu/NJKit.git'
-    
+    pod 'NJMediator'
     pod 'DYTrends'
-    #    pod 'DYTrends', :git => 'https://github.com/njhu/DYTrends.git', :branch => 'master'
-    
     pod 'NJMediator_DYTrends'
+    pod 'DYLiveShow'
+    pod 'NJMediator_DYLiveShow'
 end
 
 def njspec_pods
     
-    source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
-    
     #develop_local_pods
-    
     release_remote_pods
 
-#pod 'xxx', :git => 'git@mgit.dz11.com:douyu-ios/DYIJKPlayerComponent.git', :commit => '610ec07e465c19a83e9a41d7dacfaa55b4248750' #'0.1.4' # 播放器组件
-
-#pod 'DYDanmakuDebug', '2.8.8' , :configuration => 'Debug' # 弹幕库 debug
-#pod 'DYDanmaku', '2.8.8', :configuration => 'Release' # 弹幕库 release
-#pod 'DYStarMagicBusinessKit','0.1.2'
+#pod 'xxx', :git => 'git@xx.com:xx-ios/xx.git', :commit => '1dsafas8769823t1876378'
+#pod 'xx', '2.8.8' , :configuration => 'Debug'
+#pod 'xx', '2.8.8', :configuration => 'Release'
+#pod 'xx','0.1.2'
+#pod 'DYTrends', :git => 'https://github.com/njhu/DYTrends.git', :branch => 'master'
+#pod 'NJKit', :git => 'https://github.com/njhu/NJKit.git'
 end
 
 
@@ -64,8 +62,6 @@ target 'NJDouYu' do
     
     target 'NJDouYuUITests' do
         inherit! :search_paths
-        
-        
     end
     
 end
