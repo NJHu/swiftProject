@@ -8,7 +8,7 @@
 
 ![](./images/mediator.png)
 
-## 模块划分
+## 项目框架
 > 一切皆组件, 组件皆一切
 
 - 1, 主工程只需要拥有 NJAppDelegate 和 NJTabBarController. 
