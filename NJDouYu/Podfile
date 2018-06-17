@@ -1,8 +1,13 @@
-
 def public_pods
+    source 'https://github.com/CocoaPods/Specs.git' # 公有源
+    
+end
 
-source 'https://github.com/CocoaPods/Specs.git' # 公有源
-
+def njspec_pods
+    # 开发
+    #develop_local_pods
+    # 发布
+    release_remote_pods
 end
 
 def develop_local_pods
@@ -22,23 +27,12 @@ def release_remote_pods
     
     pod 'NJKit'
     pod 'NJMediator'
+    
     pod 'DYTrends'
     pod 'NJMediator_DYTrends'
+    
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
-end
-
-def njspec_pods
-    
-    #develop_local_pods
-    release_remote_pods
-
-#pod 'xxx', :git => 'git@xx.com:xx-ios/xx.git', :commit => '1dsafas8769823t1876378'
-#pod 'xx', '2.8.8' , :configuration => 'Debug'
-#pod 'xx', '2.8.8', :configuration => 'Release'
-#pod 'xx','0.1.2'
-#pod 'DYTrends', :git => 'https://github.com/njhu/DYTrends.git', :branch => 'master'
-#pod 'NJKit', :git => 'https://github.com/njhu/NJKit.git'
 end
 
 
@@ -65,3 +59,13 @@ target 'NJDouYu' do
     end
     
 end
+
+
+
+# 参考
+#pod 'xxx', :git => 'git@xx.com:xx-ios/xx.git', :commit => '1dsafas8769823t1876378'
+#pod 'xx', '2.8.8' , :configuration => 'Debug'
+#pod 'xx', '2.8.8', :configuration => 'Release'
+#pod 'xx','0.1.2'
+#pod 'DYTrends', :git => 'https://github.com/njhu/DYTrends.git', :branch => 'master'
+#pod 'NJKit', :git => 'https://github.com/njhu/NJKit.git'
