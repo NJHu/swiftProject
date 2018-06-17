@@ -34,4 +34,20 @@ extension NJTabBarController {
 }
 ```
 
+### Podfile
 
+```bash
+def release_remote_pods
+    
+    source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
+    
+    pod 'NJKit'
+    pod 'NJMediator'
+    
+    pod 'DYTrends'
+    pod 'NJMediator_DYTrends'
+    
+    pod 'DYLiveShow'
+    pod 'NJMediator_DYLiveShow'
+end
+```
