@@ -1,6 +1,6 @@
-|<h1>SwiftProject</h1>**组件化**<br>正在进行中, 逐渐完善文档和项目<br>组件仓库: https://github.com/NJHu/NJSpecs.git| <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/nj.jpg" width="140px" height="160px" onclick="javascript:void(0);"/> | GitHub: [NJHu](https://github.com/njhu)<br>简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d)<br><br>Blog: [NJHu](https://www.weibo.com/njhu)<br>Email: <a href="64hp@163.com">64hp@163.com</a> |
+<h1>SwiftProject</h1>
+|正在进行中, 逐渐完善文档和项目<br> [组件仓库](https://github.com/NJHu/NJSpecs.git):https://github.com/NJHu/NJSpecs.git| <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/nj.jpg" width="140px" height="160px" onclick="javascript:void(0);"/> | GitHub: [NJHu](https://github.com/njhu)<br>简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d)<br><br>Blog: [NJHu](https://www.weibo.com/njhu)<br>Email: <a href="64hp@163.com">64hp@163.com</a> |
 |:---|---|:---|
-
 
 
 ## 模块交互
