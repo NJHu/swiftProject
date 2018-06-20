@@ -1,6 +1,9 @@
+# SwiftProject
+> 最彻底的组件化
+正在进行中, 逐渐完善文档和项目
+[组件仓库](https://github.com/NJHu/NJSpecs.git):https://github.com/NJHu/NJSpecs.git
 
-|<h1>SwiftProject</h1>最彻底的组件化<br>正在进行中, 逐渐完善文档和项目<br> [组件仓库](https://github.com/NJHu/NJSpecs.git):https://github.com/NJHu/NJSpecs.git| <img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/nj.jpg" width="140px" height="160px" onclick="javascript:void(0);"/> | GitHub: [NJHu](https://github.com/njhu)<br>简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d)<br><br>Blog: [NJHu](https://www.weibo.com/njhu)<br>Email: <a href="64hp@163.com">64hp@163.com</a> |
-|:---|---|:---|
+GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) | Blog: [NJHu](https://www.weibo.com/njhu) | Email: <a href="64hp@163.com">64hp@163.com</a>
 
 
 ## 模块交互
@@ -51,3 +54,9 @@ def release_remote_pods
     pod 'NJMediator_DYLiveShow'
 end
 ```
+
+## 参考文章
+- [如何快速的开发一个完整的iOS直播app](https://www.jianshu.com/p/bd42bacbe4cc)
+- [iOS应用架构谈 组件化方案](https://casatwy.com/iOS-Modulization.html)
+- [组件化架构漫谈](https://www.jianshu.com/p/67a6004f6930)
+- [在现有工程中实施基于CTMediator的组件化方案](https://casatwy.com/modulization_in_action.html)
