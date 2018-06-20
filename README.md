@@ -1,10 +1,9 @@
 # SwiftProject
-> 最彻底的组件化
-正在进行中, 逐渐完善文档和项目
+> 最彻底的组件化<br>
+正在进行中, 逐渐完善文档和项目<br>
 [组件仓库](https://github.com/NJHu/NJSpecs.git):https://github.com/NJHu/NJSpecs.git
 
 GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) | Blog: [NJHu](https://www.weibo.com/njhu) | Email: <a href="64hp@163.com">64hp@163.com</a>
-
 
 ## 模块交互
 > **实线表示依赖和调用, 虚线表示动态调用**
