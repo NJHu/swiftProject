@@ -246,7 +246,7 @@
 					58B36C1320AAFD8200915868 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					58B36C2720AAFD8200915868 = {
 						CreatedOnToolsVersion = 9.2;
@@ -560,7 +560,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 44HDC9YG72;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NJDouYu/Info.plist;
@@ -568,7 +568,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7392c93f-44cf-4eb1-b62c-eb17bc918f11";
+				PROVISIONING_PROFILE_SPECIFIER = NJDouYu_dev__profile;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = NJDouYu/NJDouyuOC2SwiftBridge.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -585,8 +586,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44HDC9YG72;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NJDouYu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
