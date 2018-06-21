@@ -19,6 +19,8 @@ def develop_local_pods
     
     pod 'DYLiveShow', :path => '../../DYLiveShow/'
     pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
+    
+    pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
 end
 
 def release_remote_pods
@@ -26,13 +28,14 @@ def release_remote_pods
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
     
     pod 'NJKit'
-    pod 'NJMediator'
+    pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
     
     pod 'DYTrends'
     pod 'NJMediator_DYTrends'
     
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
+    
 end
 
 
