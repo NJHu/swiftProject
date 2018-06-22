@@ -43,14 +43,17 @@ def release_remote_pods
     
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
     
+    pod 'NJIJKPlayer', :git => 'https://github.com/NJHu/NJIJKPlayer.git', :branch => 'master'
+    
     pod 'NJKit'
-    pod 'NJMediator'
+    pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
     
     pod 'DYTrends'
     pod 'NJMediator_DYTrends'
     
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
+    
 end
 ```
 
