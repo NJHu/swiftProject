@@ -1,6 +1,8 @@
 def public_pods
     source 'https://github.com/CocoaPods/Specs.git' # 公有源
     
+    # 必须引入
+    pod 'NJIJKPlayer', :git => 'https://github.com/NJHu/NJIJKPlayer.git', :branch => 'master'
 end
 
 def njspec_pods
@@ -11,6 +13,7 @@ def njspec_pods
 end
 
 def develop_local_pods
+    
     pod 'NJKit', :path => '../../NJKit/'
     pod 'NJMediator', :path => '../../NJMediator/'
     
@@ -38,8 +41,6 @@ def release_remote_pods
     
 end
 
-
-
 platform :ios, '10.3'
 
 use_frameworks!
@@ -62,8 +63,6 @@ target 'NJDouYu' do
     end
     
 end
-
-
 
 # 参考
 #pod 'xxx', :git => 'git@xx.com:xx-ios/xx.git', :commit => '1dsafas8769823t1876378'
