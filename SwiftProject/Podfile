@@ -1,8 +1,5 @@
 def public_pods
     source 'https://github.com/CocoaPods/Specs.git' # 公有源
-    
-    # 必须引入
-    pod 'NJIJKPlayer', :git => 'https://github.com/NJHu/NJIJKPlayer.git', :branch => 'master'
 end
 
 def njspec_pods
