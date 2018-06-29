@@ -1,6 +1,6 @@
 # SwiftProject
 > 最彻底的组件化<br>
-正在进行中, 逐渐完善文档和项目<br>**可能本仓库长期不更新, 但是组件在更新, 经常pod update下**关注
+正在进行中, 逐渐完善文档和项目<br>**可能本仓库长期不更新, 但是组件在更新, 经常pod update下**关注<br>
 [组件仓库](https://github.com/NJHu/NJSpecs.git):https://github.com/NJHu/NJSpecs.git
 
 GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) | Blog: [NJHu](https://www.weibo.com/njhu) | Email: <a href="64hp@163.com">64hp@163.com</a>
