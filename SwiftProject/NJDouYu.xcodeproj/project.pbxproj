@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58A0152E20D5044600A7D712 /* NJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0152D20D5044600A7D712 /* NJTabBarController.swift */; };
+		582B9FCB20F08D3900AED078 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B9FCA20F08D3900AED078 /* StoreKit.framework */; };
+		582B9FD320F0C3C800AED078 /* NJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582B9FD220F0C3C800AED078 /* NJTabBarController.swift */; };
 		58A5A24720C10905008BDBA1 /* NJLanuchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
 		58B36C2D20AAFD8200915868 /* NJDouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */; };
@@ -39,7 +40,9 @@
 		161CA18B130D74038E237D7B /* Pods-NJDouYuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E581E24D08D5260836963BD /* Pods-NJDouYuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58A0152D20D5044600A7D712 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
+		582B9FC720F08C2300AED078 /* NJDouYu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NJDouYu.entitlements; sourceTree = "<group>"; };
+		582B9FCA20F08D3900AED078 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		582B9FD220F0C3C800AED078 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
 		58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLanuchScreen.xib; sourceTree = "<group>"; };
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36C1E20AAFD8200915868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582B9FCB20F08D3900AED078 /* StoreKit.framework in Frameworks */,
 				84B2026AEAF8CB3554F9FDF6 /* Pods_NJDouYu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,19 +95,12 @@
 		52AE228EF275E603ABD0D7B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				582B9FCA20F08D3900AED078 /* StoreKit.framework */,
 				E36195BC68DD83288460F65A /* Pods_NJDouYu.framework */,
 				822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */,
 				4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		58A0152C20D5044600A7D712 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				58A0152D20D5044600A7D712 /* NJTabBarController.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		58B36C0B20AAFD8200915868 = {
@@ -131,11 +128,12 @@
 		58B36C1620AAFD8200915868 /* NJDouYu */ = {
 			isa = PBXGroup;
 			children = (
+				582B9FC720F08C2300AED078 /* NJDouYu.entitlements */,
 				58B36C2320AAFD8200915868 /* Info.plist */,
 				58B36C4620AAFE2700915868 /* NJAppDelegate.swift */,
 				58B36C4520AAFE2600915868 /* NJDouyuOC2SwiftBridge.h */,
 				58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */,
-				58A0152C20D5044600A7D712 /* Classes */,
+				582B9FD220F0C3C800AED078 /* NJTabBarController.swift */,
 				58B36C1E20AAFD8200915868 /* Assets.xcassets */,
 			);
 			path = NJDouYu;
@@ -247,6 +245,23 @@
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					58B36C2720AAFD8200915868 = {
 						CreatedOnToolsVersion = 9.2;
@@ -378,6 +393,7 @@
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYLiveShow/NJMediator_DYLiveShow.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYTrends/NJMediator_DYTrends.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -391,6 +407,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYLiveShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYTrends.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -405,7 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */,
-				58A0152E20D5044600A7D712 /* NJTabBarController.swift in Sources */,
+				582B9FD320F0C3C800AED078 /* NJTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_ENTITLEMENTS = NJDouYu/NJDouYu.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44HDC9YG72;
@@ -585,6 +603,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_ENTITLEMENTS = NJDouYu/NJDouYu.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44HDC9YG72;

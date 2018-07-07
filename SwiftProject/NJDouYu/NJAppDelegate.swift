@@ -30,7 +30,6 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
         
         let resultObj = NJMediator.sharedMediator.perform(url: url) { (result: [String: AnyObject]?) in
             if result?["result"] != nil {
-                
             }
         }
         
