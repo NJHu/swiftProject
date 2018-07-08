@@ -55,6 +55,10 @@ def release_remote_pods
 end
 ```
 
+## 进度
+
+<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png" width="24%"></div>
+
 ## 参考文章
 - [如何快速的开发一个完整的iOS直播app](https://www.jianshu.com/p/bd42bacbe4cc)
 - [iOS应用架构谈 组件化方案](https://casatwy.com/iOS-Modulization.html)
