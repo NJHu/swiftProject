@@ -20,6 +20,9 @@ def develop_local_pods
     pod 'DYLiveShow', :path => '../../DYLiveShow/'
     pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
     
+    pod 'NJNowShow', :path => '../../NJNowShow/'
+    pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
+    
     pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
 end
 
@@ -35,6 +38,9 @@ def release_remote_pods
     
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
+    
+    pod 'NJNowShow'
+    pod 'NJMediator_NJNowShow'
     
 end
 
