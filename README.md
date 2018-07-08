@@ -24,13 +24,13 @@ GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com
 // MARK: - 添加模块
 extension NJTabBarController {
     private func addChildVcs() -> Void {
-        let nav0 = NJMediator.sharedMediator.Mediator_DYLiveShow_MainController()
-        if nav0 != nil {
-            self.addChildViewController(nav0!)
+
+        if let nav0 = NJMediator.sharedMediator.Mediator_DYLiveShow_MainController() {
+            self.addChildViewController(nav0)
         }
-        let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController()
-        if nav1 != nil {
-            self.addChildViewController(nav1!)
+        
+        if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
+            self.addChildViewController(nav1)
         }
     }
 }
