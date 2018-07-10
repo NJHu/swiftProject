@@ -11,6 +11,7 @@ import NJKit
 import NJMediator
 import NJMediator_DYTrends
 import NJMediator_DYLiveShow
+import NJMediator_NJNowShow
 
 public let kNJTabBarControllerDidSelectViewControllerNotification = "kNJTabBarControllerDidSelectViewControllerNotification"
 
@@ -42,6 +43,10 @@ extension NJTabBarController {
         
         if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
             self.addChildViewController(nav1)
+        }
+        
+        if let nav2 = NJMediator.sharedMediator.Mediator_NJNowShow_MainController() {
+            self.addChildViewController(nav2)
         }
     }
 }
