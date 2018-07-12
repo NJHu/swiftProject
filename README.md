@@ -3,6 +3,10 @@
 
 GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) | Blog: [NJHu](https://www.weibo.com/njhu) | Email: [64hp@163.com](mailto:64hp@163.com)
 
+## 进度
+
+<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png" width="24%"></div>
+
 ## 模块交互
 > **实线表示依赖和调用, 虚线表示动态调用**
 
@@ -52,10 +56,6 @@ def release_remote_pods
     
 end
 ```
-
-## 进度
-
-<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png" width="24%"></div>
 
 ## 参考文章
 - [如何快速的开发一个完整的iOS直播app](https://www.jianshu.com/p/bd42bacbe4cc)
