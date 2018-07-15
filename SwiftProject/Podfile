@@ -25,6 +25,8 @@ def develop_local_pods
     pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
         # DYTrends & DYLiveShow 依赖 NJDYSearchBarView
             pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
+        # DYLiveShow 依赖 DYLiveRoom
+        pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
     
     pod 'NJNowShow', :path => '../../NJNowShow/'
     pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
