@@ -1,5 +1,6 @@
 def public_pods
     source 'https://github.com/CocoaPods/Specs.git' # 公有源
+    
 end
 
 def njspec_pods
@@ -11,19 +12,30 @@ end
 
 def develop_local_pods
     
+    source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
+    
     pod 'NJKit', :path => '../../NJKit/'
     pod 'NJMediator', :path => '../../NJMediator/'
+    
     
     pod 'DYTrends', :path => '../../DYTrends/'
     pod 'NJMediator_DYTrends', :path => '../../NJMediator_DYTrends/'
     
     pod 'DYLiveShow', :path => '../../DYLiveShow/'
     pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
+        # DYTrends & DYLiveShow 依赖 NJDYSearchBarView
+            pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
     
     pod 'NJNowShow', :path => '../../NJNowShow/'
     pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
     
-    pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
+        # NJNowShow 依赖 NJNowShowPlay
+        pod 'NJNowShowPlay', :path => '../../NJNowShowPlay'
+                ## NJNowShowPlay 依赖 NJDYPlayer
+                pod 'NJDYPlayer', :path => '../../NJDYPlayer'
+                ## NJDYPlayer 依赖 NJIJKPlayer
+                #pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
+
 end
 
 def release_remote_pods
@@ -63,9 +75,11 @@ target 'NJDouYu' do
     
     target 'NJDouYuUITests' do
         inherit! :search_paths
+        
     end
     
 end
+
 
 # 参考
 #pod 'xxx', :git => 'git@xx.com:xx-ios/xx.git', :commit => '1dsafas8769823t1876378'

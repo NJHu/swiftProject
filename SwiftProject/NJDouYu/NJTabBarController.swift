@@ -70,7 +70,7 @@ extension NJTabBarController {
     }
     //返回最优先显示的屏幕方向
     open override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
-        return self.selectedViewController?.preferredInterfaceOrientationForPresentation ?? UIInterfaceOrientation.portraitUpsideDown
+        return self.selectedViewController?.preferredInterfaceOrientationForPresentation ?? UIInterfaceOrientation.portrait
     }
 }
 

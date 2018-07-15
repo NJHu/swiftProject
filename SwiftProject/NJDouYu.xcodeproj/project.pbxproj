@@ -182,6 +182,7 @@
 				58B36C1120AAFD8200915868 /* Frameworks */,
 				58B36C1220AAFD8200915868 /* Resources */,
 				F12B7AECA45FC8A1AD4A715E /* [CP] Embed Pods Frameworks */,
+				06B2DB9DB4C17643F6441778 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -322,6 +323,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06B2DB9DB4C17643F6441778 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/NJDYPlayer/NJDYPlayer.bundle",
+				"${PODS_ROOT}/../../../NJNowShow/NJNowShow/Assets/NJNowShow.xcassets",
+				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShow/NJNowShow.bundle",
+				"${PODS_ROOT}/../../../NJNowShowPlay/NJNowShowPlay/Assets/NJNowShowPlay.xcassets",
+				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShowPlay/NJNowShowPlay.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJDYPlayer.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJNowShow.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJNowShowPlay.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3DF45AA19FB9EEE620EC16A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,15 +414,12 @@
 				"${BUILT_PRODUCTS_DIR}/DYLiveShow/DYLiveShow.framework",
 				"${BUILT_PRODUCTS_DIR}/DYTrends/DYTrends.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/NJDYPlayer/NJDYPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/NJDYSearchBarView/NJDYSearchBarView.framework",
 				"${BUILT_PRODUCTS_DIR}/NJKit/NJKit.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator/NJMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYLiveShow/NJMediator_DYLiveShow.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYTrends/NJMediator_DYTrends.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_NJNowShow/NJMediator_NJNowShow.framework",
-				"${BUILT_PRODUCTS_DIR}/NJNowShow/NJNowShow.framework",
-				"${BUILT_PRODUCTS_DIR}/NJNowShowPlay/NJNowShowPlay.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -407,15 +430,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYLiveShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYTrends.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJDYPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJDYSearchBarView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYLiveShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYTrends.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJNowShow.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJNowShow.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJNowShowPlay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
