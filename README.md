@@ -49,15 +49,21 @@ def release_remote_pods
     
     pod 'NJKit'
     pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
-    
-    pod 'DYTrends'
-    pod 'NJMediator_DYTrends'
+
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
     
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
     
 end
 ```
+
+## 如何pod install成功？(**IJK太大, 仓库不支持**)
+- 1, 到**百度网盘**下载[**NJIJKPlayer**](https://pan.baidu.com/s/1ybEzk65SeWuGuzp6B4yCtA)
+- 2, 然后**pod update** 或者 **pod install**
+
+![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/NJIJKPlayer_baidu.png)
+
 
 ## 参考文章
 - [如何快速的开发一个完整的iOS直播app](https://www.jianshu.com/p/bd42bacbe4cc)
