@@ -44,6 +44,8 @@ def release_remote_pods
     
     pod 'NJKit'
     pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
+    
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
     pod 'NJDYPlayer'
     
     pod 'DYTrends'
