@@ -332,10 +332,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh",
 				"${PODS_ROOT}/../../../DYLiveRoom/DYLiveRoom/Assets/DYLiveRoom.xcassets",
 				"${PODS_CONFIGURATION_BUILD_DIR}/DYLiveRoom/DYLiveRoom.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/DYLiveShow/DYLiveShow.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJDYPlayer/NJDYPlayer.bundle",
-				"${PODS_ROOT}/../../../NJNowShow/NJNowShow/Assets/NJNowShow.xcassets",
-				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShow/NJNowShow.bundle",
 				"${PODS_ROOT}/../../../NJNowShowPlay/NJNowShowPlay/Assets/NJNowShowPlay.xcassets",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShowPlay/NJNowShowPlay.bundle",
 			);
@@ -343,9 +340,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DYLiveRoom.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DYLiveShow.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJDYPlayer.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJNowShow.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJNowShowPlay.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,14 +411,18 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/DYLiveShow/DYLiveShow.framework",
 				"${BUILT_PRODUCTS_DIR}/DYTrends/DYTrends.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/NJDYSearchBarView/NJDYSearchBarView.framework",
 				"${BUILT_PRODUCTS_DIR}/NJKit/NJKit.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator/NJMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/NJMediator_DYLiveRoom/NJMediator_DYLiveRoom.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYLiveShow/NJMediator_DYLiveShow.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYTrends/NJMediator_DYTrends.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_NJNowShow/NJMediator_NJNowShow.framework",
+				"${BUILT_PRODUCTS_DIR}/NJMediator_NJNowShowPlay/NJMediator_NJNowShowPlay.framework",
+				"${BUILT_PRODUCTS_DIR}/NJNowShow/NJNowShow.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -431,14 +430,18 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYLiveShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYTrends.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJDYSearchBarView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYLiveRoom.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYLiveShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYTrends.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJNowShow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJNowShowPlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJNowShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);

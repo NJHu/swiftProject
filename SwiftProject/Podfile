@@ -16,6 +16,8 @@ def develop_local_pods
     
     pod 'NJKit', :path => '../../NJKit/'
     pod 'NJMediator', :path => '../../NJMediator/'
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
+    pod 'NJDYPlayer', :path => '../../NJDYPlayer'
     
     
     pod 'DYTrends', :path => '../../DYTrends/'
@@ -23,20 +25,16 @@ def develop_local_pods
     
     pod 'DYLiveShow', :path => '../../DYLiveShow/'
     pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
-        # DYTrends & DYLiveShow 依赖 NJDYSearchBarView
-            pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
-        # DYLiveShow 依赖 DYLiveRoom
-        pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
+    pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
+    
+    pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
+    pod 'NJMediator_DYLiveRoom', :path => '../../NJMediator_DYLiveRoom/'
     
     pod 'NJNowShow', :path => '../../NJNowShow/'
     pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
     
-        # NJNowShow 依赖 NJNowShowPlay
-        pod 'NJNowShowPlay', :path => '../../NJNowShowPlay'
-                ## NJNowShowPlay 依赖 NJDYPlayer
-                pod 'NJDYPlayer', :path => '../../NJDYPlayer'
-                ## NJDYPlayer 依赖 NJIJKPlayer
-                #pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
+    pod 'NJNowShowPlay', :path => '../../NJNowShowPlay'
+    pod 'NJMediator_NJNowShowPlay', :path => '../../NJMediator_NJNowShowPlay'
 
 end
 
@@ -46,15 +44,18 @@ def release_remote_pods
     
     pod 'NJKit'
     pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
+    pod 'NJDYPlayer'
     
     pod 'DYTrends'
     pod 'NJMediator_DYTrends'
     
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
+    pod 'DYLiveRoom'
     
     pod 'NJNowShow'
     pod 'NJMediator_NJNowShow'
+    pod 'NJNowShowPlay'
     
 end
 
