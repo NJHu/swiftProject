@@ -37,6 +37,10 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
         
         return shouldOpen
     }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.allButUpsideDown;
+    }
 }
 
 
