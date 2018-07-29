@@ -13,12 +13,12 @@ import NJMediator
 @UIApplicationMain
 class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
-    var window: UIWindow?
+    lazy var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        UIApplication.shared.statusBarOrientation = .portrait
         // MARK:- 设置入口
-        window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = NJTabBarController()
         return true
@@ -39,7 +39,7 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.allButUpsideDown;
+        return window?.rootViewController?.supportedInterfaceOrientations  ?? UIInterfaceOrientationMask.allButUpsideDown;
     }
 }
 
