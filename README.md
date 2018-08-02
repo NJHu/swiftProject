@@ -58,7 +58,7 @@ def release_remote_pods
 end
 ```
 
-## 如何pod install成功？(**IJK太大, 仓库不支持**)
+## 如何pod install成功？(**IJK太大, 仓库不支持**) | 请确保pod是最新版本 |
 - 1, 到**百度网盘**下载[**NJIJKPlayer**](https://pan.baidu.com/s/1ybEzk65SeWuGuzp6B4yCtA)
 - 2, 然后**pod update** 或者 **pod install**
 
