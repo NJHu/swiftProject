@@ -3,6 +3,12 @@
 
 GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) | Blog: [NJHu](https://www.weibo.com/njhu) | Email: [64hp@163.com](mailto:64hp@163.com)
 
+## 如何pod install成功？(**IJK太大, 仓库不支持**) | 请确保pod是最新版本 |
+- 1, 到**百度网盘**下载[**NJIJKPlayer**](https://pan.baidu.com/s/1ybEzk65SeWuGuzp6B4yCtA)
+- 2, 然后**pod update** 或者 **pod install**
+
+![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/NJIJKPlayer_baidu.png)
+
 ## 进度
 
 <div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png" width="24%"></div>
@@ -57,13 +63,6 @@ def release_remote_pods
     
 end
 ```
-
-## 如何pod install成功？(**IJK太大, 仓库不支持**) | 请确保pod是最新版本 |
-- 1, 到**百度网盘**下载[**NJIJKPlayer**](https://pan.baidu.com/s/1ybEzk65SeWuGuzp6B4yCtA)
-- 2, 然后**pod update** 或者 **pod install**
-
-![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/NJIJKPlayer_baidu.png)
-
 
 ## 参考文章
 - [如何快速的开发一个完整的iOS直播app](https://www.jianshu.com/p/bd42bacbe4cc)
