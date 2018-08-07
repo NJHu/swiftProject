@@ -11,14 +11,31 @@ def njspec_pods
 end
 
 def develop_local_pods
+    
+    source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
+    
     pod 'NJKit', :path => '../../NJKit/'
     pod 'NJMediator', :path => '../../NJMediator/'
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
+    pod 'NJDYPlayer', :path => '../../NJDYPlayer'
+    
     
     pod 'DYTrends', :path => '../../DYTrends/'
     pod 'NJMediator_DYTrends', :path => '../../NJMediator_DYTrends/'
     
     pod 'DYLiveShow', :path => '../../DYLiveShow/'
     pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
+    pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
+    
+    pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
+    pod 'NJMediator_DYLiveRoom', :path => '../../NJMediator_DYLiveRoom/'
+    
+    pod 'NJNowShow', :path => '../../NJNowShow/'
+    pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
+    
+    pod 'NJNowShowPlay', :path => '../../NJNowShowPlay'
+    pod 'NJMediator_NJNowShowPlay', :path => '../../NJMediator_NJNowShowPlay'
+
 end
 
 def release_remote_pods
@@ -26,16 +43,23 @@ def release_remote_pods
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
     
     pod 'NJKit'
-    pod 'NJMediator'
+    pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
+    
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
+    pod 'NJDYPlayer'
     
     pod 'DYTrends'
     pod 'NJMediator_DYTrends'
     
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
+    pod 'DYLiveRoom'
+    
+    pod 'NJNowShow'
+    pod 'NJMediator_NJNowShow'
+    pod 'NJNowShowPlay'
+    
 end
-
-
 
 platform :ios, '10.3'
 
@@ -56,10 +80,10 @@ target 'NJDouYu' do
     
     target 'NJDouYuUITests' do
         inherit! :search_paths
+        
     end
     
 end
-
 
 
 # 参考

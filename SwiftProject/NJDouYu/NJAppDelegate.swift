@@ -13,12 +13,11 @@ import NJMediator
 @UIApplicationMain
 class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
-    var window: UIWindow?
+    lazy var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // MARK:- 设置入口
-        window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = NJTabBarController()
         return true
@@ -30,13 +29,16 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
         
         let resultObj = NJMediator.sharedMediator.perform(url: url) { (result: [String: AnyObject]?) in
             if result?["result"] != nil {
-                
             }
         }
         
         shouldOpen = resultObj?.boolValue ?? false;
         
         return shouldOpen
+    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return window?.rootViewController?.supportedInterfaceOrientations  ?? UIInterfaceOrientationMask.allButUpsideDown;
     }
 }
 

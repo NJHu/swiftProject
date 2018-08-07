@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58A0152E20D5044600A7D712 /* NJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0152D20D5044600A7D712 /* NJTabBarController.swift */; };
+		582B9FCB20F08D3900AED078 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B9FCA20F08D3900AED078 /* StoreKit.framework */; };
+		582B9FD320F0C3C800AED078 /* NJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582B9FD220F0C3C800AED078 /* NJTabBarController.swift */; };
 		58A5A24720C10905008BDBA1 /* NJLanuchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
 		58B36C2D20AAFD8200915868 /* NJDouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */; };
@@ -39,7 +40,9 @@
 		161CA18B130D74038E237D7B /* Pods-NJDouYuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E581E24D08D5260836963BD /* Pods-NJDouYuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58A0152D20D5044600A7D712 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
+		582B9FC720F08C2300AED078 /* NJDouYu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NJDouYu.entitlements; sourceTree = "<group>"; };
+		582B9FCA20F08D3900AED078 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		582B9FD220F0C3C800AED078 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
 		58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLanuchScreen.xib; sourceTree = "<group>"; };
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36C1E20AAFD8200915868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582B9FCB20F08D3900AED078 /* StoreKit.framework in Frameworks */,
 				84B2026AEAF8CB3554F9FDF6 /* Pods_NJDouYu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,19 +95,12 @@
 		52AE228EF275E603ABD0D7B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				582B9FCA20F08D3900AED078 /* StoreKit.framework */,
 				E36195BC68DD83288460F65A /* Pods_NJDouYu.framework */,
 				822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */,
 				4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		58A0152C20D5044600A7D712 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				58A0152D20D5044600A7D712 /* NJTabBarController.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		58B36C0B20AAFD8200915868 = {
@@ -131,11 +128,12 @@
 		58B36C1620AAFD8200915868 /* NJDouYu */ = {
 			isa = PBXGroup;
 			children = (
+				582B9FC720F08C2300AED078 /* NJDouYu.entitlements */,
 				58B36C2320AAFD8200915868 /* Info.plist */,
 				58B36C4620AAFE2700915868 /* NJAppDelegate.swift */,
 				58B36C4520AAFE2600915868 /* NJDouyuOC2SwiftBridge.h */,
 				58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */,
-				58A0152C20D5044600A7D712 /* Classes */,
+				582B9FD220F0C3C800AED078 /* NJTabBarController.swift */,
 				58B36C1E20AAFD8200915868 /* Assets.xcassets */,
 			);
 			path = NJDouYu;
@@ -184,6 +182,7 @@
 				58B36C1120AAFD8200915868 /* Frameworks */,
 				58B36C1220AAFD8200915868 /* Resources */,
 				F12B7AECA45FC8A1AD4A715E /* [CP] Embed Pods Frameworks */,
+				06B2DB9DB4C17643F6441778 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +245,24 @@
 					58B36C1320AAFD8200915868 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					58B36C2720AAFD8200915868 = {
 						CreatedOnToolsVersion = 9.2;
@@ -307,6 +323,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06B2DB9DB4C17643F6441778 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh",
+				"${PODS_ROOT}/../../../DYLiveRoom/DYLiveRoom/Assets/DYLiveRoom.xcassets",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DYLiveRoom/DYLiveRoom.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/NJDYPlayer/NJDYPlayer.bundle",
+				"${PODS_ROOT}/../../../NJNowShowPlay/NJNowShowPlay/Assets/NJNowShowPlay.xcassets",
+				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShowPlay/NJNowShowPlay.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DYLiveRoom.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJDYPlayer.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJNowShowPlay.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3DF45AA19FB9EEE620EC16A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,28 +410,40 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/DYLiveShow/DYLiveShow.framework",
 				"${BUILT_PRODUCTS_DIR}/DYTrends/DYTrends.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/NJDYSearchBarView/NJDYSearchBarView.framework",
 				"${BUILT_PRODUCTS_DIR}/NJKit/NJKit.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator/NJMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/NJMediator_DYLiveRoom/NJMediator_DYLiveRoom.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYLiveShow/NJMediator_DYLiveShow.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYTrends/NJMediator_DYTrends.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/NJMediator_NJNowShow/NJMediator_NJNowShow.framework",
+				"${BUILT_PRODUCTS_DIR}/NJMediator_NJNowShowPlay/NJMediator_NJNowShowPlay.framework",
+				"${BUILT_PRODUCTS_DIR}/NJNowShow/NJNowShow.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYLiveShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYTrends.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJDYSearchBarView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYLiveRoom.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYLiveShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYTrends.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJNowShow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJNowShowPlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJNowShow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -405,7 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */,
-				58A0152E20D5044600A7D712 /* NJTabBarController.swift in Sources */,
+				582B9FD320F0C3C800AED078 /* NJTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,17 +612,83 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_ENTITLEMENTS = NJDouYu/NJDouYu.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44HDC9YG72;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NJDouYu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"DYLiveShow\"",
+					"-framework",
+					"\"DYTrends\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IJKMediaFramework\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"NJDYPlayer\"",
+					"-framework",
+					"\"NJDYSearchBarView\"",
+					"-framework",
+					"\"NJKit\"",
+					"-framework",
+					"\"NJMediator\"",
+					"-framework",
+					"\"NJMediator_DYLiveShow\"",
+					"-framework",
+					"\"NJMediator_DYTrends\"",
+					"-framework",
+					"\"NJMediator_NJNowShow\"",
+					"-framework",
+					"\"NJNowShow\"",
+					"-framework",
+					"\"NJNowShowPlay\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7392c93f-44cf-4eb1-b62c-eb17bc918f11";
-				PROVISIONING_PROFILE_SPECIFIER = NJDouYu_dev__profile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = NJDouYu/NJDouyuOC2SwiftBridge.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -585,15 +704,82 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_ENTITLEMENTS = NJDouYu/NJDouYu.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44HDC9YG72;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NJDouYu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"DYLiveShow\"",
+					"-framework",
+					"\"DYTrends\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IJKMediaFramework\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"NJDYPlayer\"",
+					"-framework",
+					"\"NJDYSearchBarView\"",
+					"-framework",
+					"\"NJKit\"",
+					"-framework",
+					"\"NJMediator\"",
+					"-framework",
+					"\"NJMediator_DYLiveShow\"",
+					"-framework",
+					"\"NJMediator_DYTrends\"",
+					"-framework",
+					"\"NJMediator_NJNowShow\"",
+					"-framework",
+					"\"NJNowShow\"",
+					"-framework",
+					"\"NJNowShowPlay\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = NJDouYu/NJDouyuOC2SwiftBridge.h;
