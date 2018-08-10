@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import NJKit
 import NJMediator
 
 @UIApplicationMain

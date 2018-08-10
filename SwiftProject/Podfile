@@ -16,8 +16,8 @@ def develop_local_pods
     
     pod 'NJKit', :path => '../../NJKit/'
     pod 'NJMediator', :path => '../../NJMediator/'
-    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
-    pod 'NJDYPlayer', :path => '../../NJDYPlayer'
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer/'
+    pod 'NJDYPlayer', :path => '../../NJDYPlayer/'
     
     
     pod 'DYTrends', :path => '../../DYTrends/'
@@ -33,9 +33,14 @@ def develop_local_pods
     pod 'NJNowShow', :path => '../../NJNowShow/'
     pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
     
-    pod 'NJNowShowPlay', :path => '../../NJNowShowPlay'
-    pod 'NJMediator_NJNowShowPlay', :path => '../../NJMediator_NJNowShowPlay'
+    pod 'NJNowShowPlay', :path => '../../NJNowShowPlay/'
+    pod 'NJMediator_NJNowShowPlay', :path => '../../NJMediator_NJNowShowPlay/'
 
+    pod 'NJSisVideoList', :path => '../../NJSisVideoList/'
+    pod 'NJMediator_NJSisVideoList', :path => '../../NJMediator_NJSisVideoList/'
+    
+    pod 'NJSisPlayPage', :path => '../../NJSisPlayPage/'
+    pod 'NJMediator_NJSisPlayPage', :path => '../../NJMediator_NJSisPlayPage/'
 end
 
 def release_remote_pods
@@ -59,6 +64,9 @@ def release_remote_pods
     pod 'NJMediator_NJNowShow'
     pod 'NJNowShowPlay'
     
+    pod 'NJSisVideoList'
+    pod 'NJMediator_NJSisVideoList'
+    pod 'NJSisPlayPage'
 end
 
 platform :ios, '10.3'

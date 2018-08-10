@@ -12,10 +12,12 @@ import NJMediator
 import NJMediator_DYTrends
 import NJMediator_DYLiveShow
 import NJMediator_NJNowShow
+import NJMediator_NJSisVideoList
 
 public let kNJTabBarControllerDidSelectViewControllerNotification = "kNJTabBarControllerDidSelectViewControllerNotification"
+public let kNJTabBarControllerShouldSelectViewControllerNotification = "kNJTabBarControllerShouldSelectViewControllerNotification"
 
-class NJTabBarController: UITabBarController, UITabBarControllerDelegate {
+class NJTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,11 +26,22 @@ class NJTabBarController: UITabBarController, UITabBarControllerDelegate {
         tabBar.tintColor = UIColor.orange
         addChildVcs()
     }
+}
+
+// MARK:- UITabBarControllerDelegate
+extension NJTabBarController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNJTabBarControllerDidSelectViewControllerNotification), object: self, userInfo: ["viewController": viewController])
     }
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         return true
+    }
+}
+
+// MARK:- UITabBarDelegate
+extension NJTabBarController {
+    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+//        super.tabBar(tabBar, didSelect: item)
     }
 }
 
@@ -41,16 +54,21 @@ extension NJTabBarController {
             self.addChildViewController(nav0)
         }
         
-        if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
-            self.addChildViewController(nav1)
-        }
+//        if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
+//            self.addChildViewController(nav1)
+//        }
         
         if let nav2 = NJMediator.sharedMediator.Mediator_NJNowShow_MainController() {
             self.addChildViewController(nav2)
         }
+        
+        if let nav3 = NJMediator.sharedMediator.Mediator_NJSisVideoList_MainController() {
+            self.addChildViewController(nav3)
+        }
     }
 }
 
+// MARK:- statusBar
 extension NJTabBarController {
     open override var prefersStatusBarHidden: Bool {
         return self.selectedViewController?.prefersStatusBarHidden ?? false

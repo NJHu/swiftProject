@@ -335,6 +335,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJDYPlayer/NJDYPlayer.bundle",
 				"${PODS_ROOT}/../../../NJNowShowPlay/NJNowShowPlay/Assets/NJNowShowPlay.xcassets",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShowPlay/NJNowShowPlay.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/NJSisPlayPage/NJSisPlayPage.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -342,6 +343,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DYLiveRoom.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJDYPlayer.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJNowShowPlay.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJSisPlayPage.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -422,7 +424,10 @@
 				"${BUILT_PRODUCTS_DIR}/NJMediator_DYTrends/NJMediator_DYTrends.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_NJNowShow/NJMediator_NJNowShow.framework",
 				"${BUILT_PRODUCTS_DIR}/NJMediator_NJNowShowPlay/NJMediator_NJNowShowPlay.framework",
+				"${BUILT_PRODUCTS_DIR}/NJMediator_NJSisPlayPage/NJMediator_NJSisPlayPage.framework",
+				"${BUILT_PRODUCTS_DIR}/NJMediator_NJSisVideoList/NJMediator_NJSisVideoList.framework",
 				"${BUILT_PRODUCTS_DIR}/NJNowShow/NJNowShow.framework",
+				"${BUILT_PRODUCTS_DIR}/NJSisVideoList/NJSisVideoList.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -441,7 +446,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_DYTrends.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJNowShow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJNowShowPlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJSisPlayPage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJMediator_NJSisVideoList.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJNowShow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJSisVideoList.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
