@@ -4,43 +4,16 @@ def public_pods
 end
 
 def njspec_pods
-    # 开发
-    #develop_local_pods
     # 发布
     release_remote_pods
+    
+    # 开发
+    develop_local_pods
 end
 
 def develop_local_pods
-    
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
     
-    pod 'NJKit', :path => '../../NJKit/'
-    pod 'NJMediator', :path => '../../NJMediator/'
-    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer/'
-    pod 'NJDYPlayer', :path => '../../NJDYPlayer/'
-    
-    
-    pod 'DYTrends', :path => '../../DYTrends/'
-    pod 'NJMediator_DYTrends', :path => '../../NJMediator_DYTrends/'
-    
-    pod 'DYLiveShow', :path => '../../DYLiveShow/'
-    pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
-    pod 'NJDYSearchBarView', :path => '../../NJDYSearchBarView/'
-    
-    pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
-    pod 'NJMediator_DYLiveRoom', :path => '../../NJMediator_DYLiveRoom/'
-    
-    pod 'NJNowShow', :path => '../../NJNowShow/'
-    pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
-    
-    pod 'NJNowShowPlay', :path => '../../NJNowShowPlay/'
-    pod 'NJMediator_NJNowShowPlay', :path => '../../NJMediator_NJNowShowPlay/'
-
-    pod 'NJSisVideoList', :path => '../../NJSisVideoList/'
-    pod 'NJMediator_NJSisVideoList', :path => '../../NJMediator_NJSisVideoList/'
-    
-    pod 'NJSisPlayPage', :path => '../../NJSisPlayPage/'
-    pod 'NJMediator_NJSisPlayPage', :path => '../../NJMediator_NJSisPlayPage/'
 end
 
 def release_remote_pods
@@ -50,8 +23,9 @@ def release_remote_pods
     pod 'NJKit'
     pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
     
-    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer/'
     pod 'NJDYPlayer'
+    #pod 'NJDYPlayer', :path => '../../NJDYPlayer/'
     
     pod 'DYTrends'
     pod 'NJMediator_DYTrends'
@@ -59,14 +33,17 @@ def release_remote_pods
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
     pod 'DYLiveRoom'
+    #pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
     
     pod 'NJNowShow'
     pod 'NJMediator_NJNowShow'
     pod 'NJNowShowPlay'
+    #pod 'NJNowShowPlay', :path => '../../NJNowShowPlay/'
     
     pod 'NJSisVideoList'
     pod 'NJMediator_NJSisVideoList'
     pod 'NJSisPlayPage'
+    #pod 'NJSisPlayPage', :path => '../../NJSisPlayPage/'
 end
 
 platform :ios, '10.3'
