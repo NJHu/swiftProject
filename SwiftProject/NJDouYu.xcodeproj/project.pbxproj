@@ -330,10 +330,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh",
-				"${PODS_ROOT}/../../../DYLiveRoom/DYLiveRoom/Assets/DYLiveRoom.xcassets",
+				"${PODS_ROOT}/DYLiveRoom/DYLiveRoom/Assets/DYLiveRoom.xcassets",
 				"${PODS_CONFIGURATION_BUILD_DIR}/DYLiveRoom/DYLiveRoom.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJDYPlayer/NJDYPlayer.bundle",
-				"${PODS_ROOT}/../../../NJNowShowPlay/NJNowShowPlay/Assets/NJNowShowPlay.xcassets",
+				"${PODS_ROOT}/NJNowShowPlay/NJNowShowPlay/Assets/NJNowShowPlay.xcassets",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShowPlay/NJNowShowPlay.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJSisPlayPage/NJSisPlayPage.bundle",
 			);
