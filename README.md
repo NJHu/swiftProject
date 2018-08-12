@@ -11,9 +11,9 @@ GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com
 
 ## 进度
 
-<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png" width="24%"></div>
+<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoList.jpeg" width="24%"></div>
 
-<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/douyuliveroom.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/nowshowliveroom.png" width="24%"></div>
+<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoPlayprotrait.jpeg" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/douyuliveroom.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/nowshowliveroom.png" width="24%"></div>
 
 ## 模块交互
 > **实线表示依赖和调用, 虚线表示动态调用**
