@@ -1,11 +1,7 @@
-|SwiftProject 简介|感谢关注|
-|:---|:---|
-|最彻底的组件化<br>正在进行中, 逐渐完善文档和项目<br>可能本仓库长期不更新, 但是组件在更新, 经常pod update<br>[组件仓库:https://github.com/NJHu/NJSpecs.git](https://github.com/NJHu/NJSpecs.git)|GitHub: [NJHu](https://github.com/njhu) <br> 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) <br> Blog: [NJHu](https://www.weibo.com/njhu) <br> Email: [64hp@163.com](mailto:64hp@163.com)|
+|SwiftProject 简介|模块交互|感谢关注|
+|:---|:---:|:---|
+|最彻底的组件化<br>正在进行中<br>**本项目没有更新, 但是组件在更新, 经常pod update**<br>[组件仓库-查看](https://github.com/NJHu/NJSpecs.git)|**实线表示依赖和调用, 虚线表示动态调用**<br>![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/mediator.png)|GitHub: [NJHu](https://github.com/njhu) <br> 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) <br> Blog: [NJHu](https://www.weibo.com/njhu) <br> Email: [64hp@163.com](mailto:64hp@163.com)|
 
-### 模块交互
-> **实线表示依赖和调用, 虚线表示动态调用**
-
-![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/mediator.png)
 
 ### 如何运行成功?
 |步骤|截图|
@@ -14,7 +10,7 @@
 
 ## 项目部分截图
 
-|-|-|-|-|
+|1|2|3|4|
 |---|---|---|---|
 |![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoList.jpeg)|
 |![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoPlayprotrait.jpeg)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/douyuliveroom.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/nowshowliveroom.png)|
