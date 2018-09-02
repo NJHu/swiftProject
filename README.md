@@ -1,7 +1,8 @@
-|SwiftProject 简介|模块交互|感谢关注|
-|:---|:---:|:---|
-|最彻底的组件化<br>正在进行中<br>**本项目没有更新, 但是组件在更新, 经常pod update**<br>[组件仓库-查看](https://github.com/NJHu/NJSpecs.git)|**实线表示依赖和调用, 虚线表示动态调用**<br>![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/mediator.png)|GitHub: [NJHu](https://github.com/njhu) <br> 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) <br> Blog: [NJHu](https://www.weibo.com/njhu) <br> Email: [64hp@163.com](mailto:64hp@163.com)|
+|SwiftProject 简介|模块交互|
+|:---|:---:|
+|最彻底的组件化<br>正在进行中<br>**本项目没有更新, 但是组件在更新, 经常pod update**<br>[组件仓库-查看](https://github.com/NJHu/NJSpecs.git)|**实线表示依赖和调用, 虚线表示动态调用**<br>![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/mediator.png)|
 
+GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) | Blog: [NJHu](https://www.weibo.com/njhu) | Email: [64hp@163.com](mailto:64hp@163.com)
 
 ### 如何运行成功?
 |步骤|截图|

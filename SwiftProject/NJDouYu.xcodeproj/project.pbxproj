@@ -330,16 +330,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh",
-				"${PODS_ROOT}/DYLiveRoom/DYLiveRoom/Assets/DYLiveRoom.xcassets",
 				"${PODS_CONFIGURATION_BUILD_DIR}/DYLiveRoom/DYLiveRoom.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJDYPlayer/NJDYPlayer.bundle",
-				"${PODS_ROOT}/NJNowShowPlay/NJNowShowPlay/Assets/NJNowShowPlay.xcassets",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJNowShowPlay/NJNowShowPlay.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJSisPlayPage/NJSisPlayPage.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DYLiveRoom.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJDYPlayer.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NJNowShowPlay.bundle",
