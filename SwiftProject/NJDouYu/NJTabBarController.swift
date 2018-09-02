@@ -41,7 +41,7 @@ extension NJTabBarController: UITabBarControllerDelegate {
 // MARK:- UITabBarDelegate
 extension NJTabBarController {
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-//        super.tabBar(tabBar, didSelect: item)
+        //        super.tabBar(tabBar, didSelect: item)
     }
 }
 
@@ -49,19 +49,19 @@ extension NJTabBarController {
 // MARK: - 添加模块
 extension NJTabBarController {
     private func addChildVcs() -> Void {
-
+        // 直播列表
         if let nav0 = NJMediator.sharedMediator.Mediator_DYLiveShow_MainController() {
             self.addChildViewController(nav0)
         }
-        
-//        if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
-//            self.addChildViewController(nav1)
-//        }
-        
+        // 个人偏好
+        //  if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
+        //  self.addChildViewController(nav1)
+        // }
+        // NowShow列表
         if let nav2 = NJMediator.sharedMediator.Mediator_NJNowShow_MainController() {
             self.addChildViewController(nav2)
         }
-        
+        // 视频列表
         if let nav3 = NJMediator.sharedMediator.Mediator_NJSisVideoList_MainController() {
             self.addChildViewController(nav3)
         }

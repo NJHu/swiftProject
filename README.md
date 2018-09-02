@@ -1,24 +1,23 @@
-# SwiftProject
-> 最彻底的组件化<br>正在进行中, 逐渐完善文档和项目<br>**可能本仓库长期不更新, 但是组件在更新, 经常pod update下**关注<br>[组件仓库](https://github.com/NJHu/NJSpecs.git):https://github.com/NJHu/NJSpecs.git
+|SwiftProject 简介|感谢关注|
+|:---|:---|
+|最彻底的组件化<br>正在进行中, 逐渐完善文档和项目<br>可能本仓库长期不更新, 但是组件在更新, 经常pod update<br>[组件仓库:https://github.com/NJHu/NJSpecs.git](https://github.com/NJHu/NJSpecs.git)|GitHub: [NJHu](https://github.com/njhu) <br> 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) <br> Blog: [NJHu](https://www.weibo.com/njhu) <br> Email: [64hp@163.com](mailto:64hp@163.com)|
 
-GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com/u/dbc8e7afeb3d) | Blog: [NJHu](https://www.weibo.com/njhu) | Email: [64hp@163.com](mailto:64hp@163.com)
-
-## 如何pod install成功？(**IJK太大, 仓库不支持**) | 请确保pod是最新版本 |
-- 1, 到**百度网盘**下载[**NJIJKPlayer**](https://pan.baidu.com/s/1ybEzk65SeWuGuzp6B4yCtA)
-- 2, 然后**pod update** 或者 **pod install**
-
-![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/NJIJKPlayer_baidu.png)
-
-## 进度
-
-<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoList.jpeg" width="24%"></div>
-
-<div><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoPlayprotrait.jpeg" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/douyuliveroom.png" width="24%"><img src="https://raw.githubusercontent.com/NJHu/swiftProject/master/images/nowshowliveroom.png" width="24%"></div>
-
-## 模块交互
+### 模块交互
 > **实线表示依赖和调用, 虚线表示动态调用**
 
 ![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/mediator.png)
+
+### 如何运行成功?
+|步骤|截图|
+|:---|:---:|
+|1, 到**百度网盘**下载[**NJIJKPlayer**](https://pan.baidu.com/s/1ybEzk65SeWuGuzp6B4yCtA)<br>2, 执行命令<br>`sudo gem install cocoapods`<br>保证pod版本>=1.5.3<br>3, 然后**pod update** 或者 **pod install**<br>|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/NJIJKPlayer_baidu.png)|
+
+## 项目部分截图
+
+|-|-|-|-|
+|---|---|---|---|
+|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoList.jpeg)|
+|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoPlayprotrait.jpeg)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/douyuliveroom.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/nowshowliveroom.png)|
 
 ## 项目结构
 > 一切皆组件, 组件皆一切
@@ -26,25 +25,10 @@ GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com
 - 1, 主工程只需要拥有 NJAppDelegate 和 NJTabBarController. 
 - 2, 其他所有的功能都在相应的组件里边
 
-![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/Swiftmulu.png)
+|目录结构|TabBarController|
+|:---:|:---:|
+|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/Swiftmulu.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/njtabbarcontroller.png)|
 
-### NJTabBarController
-
-``` swift
-// MARK: - 添加模块
-extension NJTabBarController {
-    private func addChildVcs() -> Void {
-
-        if let nav0 = NJMediator.sharedMediator.Mediator_DYLiveShow_MainController() {
-            self.addChildViewController(nav0)
-        }
-        
-        if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
-            self.addChildViewController(nav1)
-        }
-    }
-}
-```
 
 ### Podfile
 
@@ -52,17 +36,42 @@ extension NJTabBarController {
 def release_remote_pods
     
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
-    
+    # 基础组件
     pod 'NJKit'
+    # 中间件
     pod 'NJMediator', :source => 'https://github.com/NJHu/NJSpecs.git'
-
-    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer'
+    # IJK
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer/'
+    pod 'NJDYPlayer'
     
+    # 个人偏好模块
+    pod 'DYTrends'
+    pod 'NJMediator_DYTrends'
+    
+    # 直播列表
     pod 'DYLiveShow'
     pod 'NJMediator_DYLiveShow'
+    # 直播间
+    pod 'DYLiveRoom'
     
+    # NowShow组件
+    pod 'NJNowShow'
+    pod 'NJMediator_NJNowShow'
+    # NowShow直播间
+    pod 'NJNowShowPlay'
+    
+    # 视频列表
+    pod 'NJSisVideoList'
+    pod 'NJMediator_NJSisVideoList'
+    # 视频播放页面
+    pod 'NJSisPlayPage'
+
 end
 ```
+
+## 现有组件列表和依赖关系
+
+
 
 ## 参考文章
 - [如何快速的开发一个完整的iOS直播app](https://www.jianshu.com/p/bd42bacbe4cc)
