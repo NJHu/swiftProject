@@ -67,6 +67,8 @@ end
 ```
 
 ## 现有组件列表和依赖关系
+> 仓库: https://github.com/NJHu/NJSpecs.git
+
 |编号|组件|简介|依赖|
 |:---|:---|:---|:---|
 |0|[NJKit](https://github.com/NJHu/NJKit.git)|基类和工具|SnapKit, MJRefresh, Alamofire, SwiftyJSON, AlamofireImage|
