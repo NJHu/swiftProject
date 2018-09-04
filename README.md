@@ -11,9 +11,8 @@ GitHub: [NJHu](https://github.com/njhu) | 简书: [NJHu](https://www.jianshu.com
 
 ## 项目部分截图
 
-|1|2|3|4|
-|---|---|---|---|
 |![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoList.jpeg)|
+|---|---|---|---|
 |![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoPlayprotrait.jpeg)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/douyuliveroom.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/nowshowliveroom.png)|
 
 ## 项目结构
