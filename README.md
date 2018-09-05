@@ -1,10 +1,8 @@
-## 项目部分截图
-
 |![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homeList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/category.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/categoryList.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoList.jpeg)|
 |---|---|---|---|
 |![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/homenowshow.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/videoPlayprotrait.jpeg)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/douyuliveroom.png)|![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/nowshowliveroom.png)|
 
-|SwiftProject 简介|模块交互|
+|**SwiftProject 简介**|模块交互|
 |:---|:---:|
 |`最彻底的组件化`<br>`正在进行中`<br>**`经常pod update`**<br>[组件仓库-查看](https://github.com/NJHu/NJSpecs.git)|**实线表示依赖和调用, 虚线表示动态调用**<br>![](https://raw.githubusercontent.com/NJHu/swiftProject/master/images/mediator.png)|
 
