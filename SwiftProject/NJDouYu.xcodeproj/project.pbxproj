@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		582B9FCB20F08D3900AED078 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B9FCA20F08D3900AED078 /* StoreKit.framework */; };
 		582B9FD320F0C3C800AED078 /* NJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582B9FD220F0C3C800AED078 /* NJTabBarController.swift */; };
+		5836E9322143A35E006CB1A4 /* NJConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5836E9312143A35E006CB1A4 /* NJConst.swift */; };
 		58A5A24720C10905008BDBA1 /* NJLanuchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
 		58B36C2D20AAFD8200915868 /* NJDouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */; };
@@ -43,6 +44,7 @@
 		582B9FC720F08C2300AED078 /* NJDouYu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NJDouYu.entitlements; sourceTree = "<group>"; };
 		582B9FCA20F08D3900AED078 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		582B9FD220F0C3C800AED078 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
+		5836E9312143A35E006CB1A4 /* NJConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJConst.swift; sourceTree = "<group>"; };
 		58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NJLanuchScreen.xib; sourceTree = "<group>"; };
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36C1E20AAFD8200915868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				582B9FC720F08C2300AED078 /* NJDouYu.entitlements */,
 				58B36C2320AAFD8200915868 /* Info.plist */,
 				58B36C4620AAFE2700915868 /* NJAppDelegate.swift */,
+				5836E9312143A35E006CB1A4 /* NJConst.swift */,
 				58B36C4520AAFE2600915868 /* NJDouyuOC2SwiftBridge.h */,
 				58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */,
 				582B9FD220F0C3C800AED078 /* NJTabBarController.swift */,
@@ -464,6 +467,7 @@
 			files = (
 				58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */,
 				582B9FD320F0C3C800AED078 /* NJTabBarController.swift in Sources */,
+				5836E9322143A35E006CB1A4 /* NJConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

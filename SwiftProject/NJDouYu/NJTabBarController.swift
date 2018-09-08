@@ -14,9 +14,6 @@ import NJMediator_DYLiveShow
 import NJMediator_NJNowShow
 import NJMediator_NJSisVideoList
 
-public let kNJTabBarControllerDidSelectViewControllerNotification = "kNJTabBarControllerDidSelectViewControllerNotification"
-public let kNJTabBarControllerShouldSelectViewControllerNotification = "kNJTabBarControllerShouldSelectViewControllerNotification"
-
 class NJTabBarController: UITabBarController {
     
     override func viewDidLoad() {
