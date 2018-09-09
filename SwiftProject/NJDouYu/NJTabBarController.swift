@@ -32,6 +32,9 @@ extension NJTabBarController: UITabBarControllerDelegate {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNJTabBarControllerDidSelectViewControllerNotification), object: self, userInfo: ["viewController": viewController])
     }
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+//        var shouldSelect: NSNumber = true
+//        NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNJTabBarControllerShouldSelectViewControllerNotification), object: self, userInfo: ["shouldSelect": shouldSelect])
+//        return shouldSelect.boolValue
         return true
     }
 }
