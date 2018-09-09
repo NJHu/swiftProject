@@ -13,6 +13,7 @@ import NJMediator_DYTrends
 import NJMediator_DYLiveShow
 import NJMediator_NJNowShow
 import NJMediator_NJSisVideoList
+import NJMediator_NJFAQ
 
 class NJTabBarController: UITabBarController {
     
@@ -61,6 +62,10 @@ extension NJTabBarController {
         // 视频列表
         if let nav3 = NJMediator.sharedMediator.Mediator_NJSisVideoList_MainController() {
             self.addChildViewController(nav3)
+        }
+        // 常见问题答疑
+        if let nav4 = NJMediator.sharedMediator.Mediator_NJFAQ_Controller() {
+            self.addChildViewController(nav4)
         }
     }
 }

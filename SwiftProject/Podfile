@@ -14,6 +14,8 @@ end
 def develop_local_pods
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
     
+    #pod 'NJKit', :path => '../../NJKit'
+    
     #pod 'NJDYPlayer', :path => '../../NJDYPlayer/'
     
     #pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
@@ -21,6 +23,9 @@ def develop_local_pods
     #pod 'NJNowShowPlay', :path => '../../NJNowShowPlay/'
     
     #pod 'NJSisPlayPage', :path => '../../NJSisPlayPage/'
+    
+    #pod 'NJFAQ', :path => '../../NJFAQ/'
+    #pod 'NJMediator_NJFAQ', :path => '../../NJMediator_NJFAQ/'
     
 end
 
@@ -56,7 +61,10 @@ def release_remote_pods
     pod 'NJMediator_NJSisVideoList'
     # 视频播放页面
     pod 'NJSisPlayPage'
-
+    
+    # FAQ
+    pod 'NJFAQ'
+    pod 'NJMediator_NJFAQ'
 end
 
 platform :ios, '10.3'
