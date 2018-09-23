@@ -32,9 +32,9 @@ extension NJTabBarController: UITabBarControllerDelegate {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNJTabBarControllerDidSelectViewControllerNotification), object: self, userInfo: ["viewController": viewController])
     }
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-//        var shouldSelect: NSNumber = true
-//        NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNJTabBarControllerShouldSelectViewControllerNotification), object: self, userInfo: ["shouldSelect": shouldSelect])
-//        return shouldSelect.boolValue
+        //        var shouldSelect: NSNumber = true
+        //        NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNJTabBarControllerShouldSelectViewControllerNotification), object: self, userInfo: ["shouldSelect": shouldSelect])
+        //        return shouldSelect.boolValue
         return true
     }
 }
@@ -54,14 +54,6 @@ extension NJTabBarController {
         if let nav0 = NJMediator.sharedMediator.Mediator_DYLiveShow_MainController() {
             self.addChildViewController(nav0)
         }
-        // 个人偏好
-        //  if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
-        //  self.addChildViewController(nav1)
-        // }
-        // NowShow列表
-        if let nav2 = NJMediator.sharedMediator.Mediator_NJNowShow_MainController() {
-            self.addChildViewController(nav2)
-        }
         // 视频列表
         if let nav3 = NJMediator.sharedMediator.Mediator_NJSisVideoList_MainController() {
             self.addChildViewController(nav3)
@@ -69,6 +61,14 @@ extension NJTabBarController {
         // 常见问题答疑
         if let nav4 = NJMediator.sharedMediator.Mediator_NJFAQ_Controller() {
             self.addChildViewController(nav4)
+        }
+        // 个人偏好
+        if let nav1 = NJMediator.sharedMediator.Mediator_DYTrends_MainController() {
+            self.addChildViewController(nav1)
+        }
+        // NowShow列表
+        if let nav2 = NJMediator.sharedMediator.Mediator_NJNowShow_MainController() {
+            self.addChildViewController(nav2)
         }
     }
 }
