@@ -8,6 +8,7 @@
 
 import UIKit
 import NJMediator
+import NJKit
 
 @UIApplicationMain
 class NJAppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,9 +17,13 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        // MARK:- 设置入口
+        // 设置入口
         window?.makeKeyAndVisible()
         window?.rootViewController = NJTabBarController()
+        
+        // 设置监控
+        NJDebugTool.defaultTool.show()
+        
         return true
     }
     
