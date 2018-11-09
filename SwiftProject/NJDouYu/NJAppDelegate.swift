@@ -15,7 +15,7 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
     lazy var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
     
-    func applicationDidFinishLaunching(_ application: UIApplication) {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         // 设置入口
         window?.makeKeyAndVisible()
         window?.rootViewController = NJTabBarController()
