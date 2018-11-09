@@ -5,10 +5,10 @@ end
 
 def njspec_pods
     # 发布
-    #release_remote_pods
+    release_remote_pods
     
     # 开发
-    develop_local_pods
+    #develop_local_pods
 end
 
 def develop_local_pods
