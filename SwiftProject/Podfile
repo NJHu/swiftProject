@@ -5,7 +5,7 @@ end
 
 def njspec_pods
     # 发布
-    release_remote_pods
+    #release_remote_pods
     
     # 开发
     develop_local_pods
@@ -14,19 +14,39 @@ end
 def develop_local_pods
     source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
     
-    #pod 'NJKit', :path => '../../NJKit'
+    # 基础组件
+    pod 'NJKit', :path => '../../NJKit/'
+    # 中间件
+    pod 'NJMediator', :path => '../../NJMediator/'
+    # IJK
+    pod 'NJIJKPlayer', :path => '../../NJIJKPlayer/'
+    pod 'NJDYPlayer', :path => '../../NJDYPlayer/'
     
-    #pod 'NJDYPlayer', :path => '../../NJDYPlayer/'
+    # 个人偏好模块
+    pod 'DYTrends', :path => '../../DYTrends/'
+    pod 'NJMediator_DYTrends', :path => '../../NJMediator_DYTrends/'
     
-    #pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
+    # 直播列表
+    pod 'DYLiveShow', :path => '../../DYLiveShow/'
+    pod 'NJMediator_DYLiveShow', :path => '../../NJMediator_DYLiveShow/'
+    # 直播间
+    pod 'DYLiveRoom', :path => '../../DYLiveRoom/'
     
-    #pod 'NJNowShowPlay', :path => '../../NJNowShowPlay/'
+    # NowShow组件
+    pod 'NJNowShow', :path => '../../NJNowShow/'
+    pod 'NJMediator_NJNowShow', :path => '../../NJMediator_NJNowShow/'
+    # NowShow直播间
+    pod 'NJNowShowPlay', :path => '../../NJNowShowPlay/'
     
-    #pod 'NJSisPlayPage', :path => '../../NJSisPlayPage/'
+    # 视频列表
+    pod 'NJSisVideoList', :path => '../../NJSisVideoList/'
+    pod 'NJMediator_NJSisVideoList', :path => '../../NJMediator_NJSisVideoList/'
+    # 视频播放页面
+    pod 'NJSisPlayPage', :path => '../../NJSisPlayPage/'
     
-    #pod 'NJFAQ', :path => '../../NJFAQ/'
-    #pod 'NJMediator_NJFAQ', :path => '../../NJMediator_NJFAQ/'
-    
+    # FAQ
+    pod 'NJFAQ', :path => '../../NJFAQ/'
+    pod 'NJMediator_NJFAQ', :path => '../../NJMediator_NJFAQ/'
 end
 
 def release_remote_pods

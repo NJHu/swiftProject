@@ -15,29 +15,22 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
     
     lazy var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+    func applicationDidFinishLaunching(_ application: UIApplication) {
         // 设置入口
         window?.makeKeyAndVisible()
         window?.rootViewController = NJTabBarController()
-        
         // 设置监控
         NJDebugTool.defaultTool.show()
-        
-        return true
     }
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         var shouldOpen = false
         
         let resultObj = NJMediator.sharedMediator.perform(url: url) { (result: [String: AnyObject]?) in
             if result?["result"] != nil {
             }
         }
-        
         shouldOpen = resultObj?.boolValue ?? false;
-        
         return shouldOpen
     }
     
