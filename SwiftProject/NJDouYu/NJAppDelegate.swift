@@ -21,6 +21,7 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = NJTabBarController()
         // 设置监控
         NJDebugTool.defaultTool.show()
+        return true
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
