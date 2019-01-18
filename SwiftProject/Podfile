@@ -99,16 +99,6 @@ target 'NJDouYu' do
     
     public_pods
     
-    target 'NJDouYuTests' do
-        inherit! :search_paths
-        
-    end
-    
-    target 'NJDouYuUITests' do
-        inherit! :search_paths
-        
-    end
-    
 end
 
 

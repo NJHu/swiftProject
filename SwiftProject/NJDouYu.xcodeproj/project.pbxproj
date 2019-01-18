@@ -12,35 +12,11 @@
 		5836E9322143A35E006CB1A4 /* NJConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5836E9312143A35E006CB1A4 /* NJConst.swift */; };
 		58A5A24720C10905008BDBA1 /* NJLanuchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A5A24620C10905008BDBA1 /* NJLanuchScreen.xib */; };
 		58B36C1F20AAFD8200915868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B36C1E20AAFD8200915868 /* Assets.xcassets */; };
-		58B36C2D20AAFD8200915868 /* NJDouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */; };
-		58B36C3820AAFD8200915868 /* NJDouYuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C3720AAFD8200915868 /* NJDouYuUITests.swift */; };
 		58B36C5620AAFE2700915868 /* NJAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B36C4620AAFE2700915868 /* NJAppDelegate.swift */; };
 		84B2026AEAF8CB3554F9FDF6 /* Pods_NJDouYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36195BC68DD83288460F65A /* Pods_NJDouYu.framework */; };
-		B25D9A0FCD1CA39374DD3E84 /* Pods_NJDouYuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */; };
-		FD6978F80AD91A3A1C856618 /* Pods_NJDouYuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		58B36C2920AAFD8200915868 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58B36C0C20AAFD8200915868 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58B36C1320AAFD8200915868;
-			remoteInfo = NJDouYu;
-		};
-		58B36C3420AAFD8200915868 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58B36C0C20AAFD8200915868 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58B36C1320AAFD8200915868;
-			remoteInfo = NJDouYu;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		161CA18B130D74038E237D7B /* Pods-NJDouYuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2E581E24D08D5260836963BD /* Pods-NJDouYuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.release.xcconfig"; sourceTree = "<group>"; };
-		4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		582B9FC720F08C2300AED078 /* NJDouYu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NJDouYu.entitlements; sourceTree = "<group>"; };
 		582B9FCA20F08D3900AED078 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		582B9FD220F0C3C800AED078 /* NJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJTabBarController.swift; sourceTree = "<group>"; };
@@ -49,18 +25,9 @@
 		58B36C1420AAFD8200915868 /* NJDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B36C1E20AAFD8200915868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58B36C2320AAFD8200915868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58B36C2820AAFD8200915868 /* NJDouYuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJDouYuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJDouYuTests.swift; sourceTree = "<group>"; };
-		58B36C2E20AAFD8200915868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58B36C3320AAFD8200915868 /* NJDouYuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJDouYuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58B36C3720AAFD8200915868 /* NJDouYuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJDouYuUITests.swift; sourceTree = "<group>"; };
-		58B36C3920AAFD8200915868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58B36C4520AAFE2600915868 /* NJDouyuOC2SwiftBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJDouyuOC2SwiftBridge.h; sourceTree = "<group>"; };
 		58B36C4620AAFE2700915868 /* NJAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJAppDelegate.swift; sourceTree = "<group>"; };
 		76C63CACA4FC8CDA0B3CB770 /* Pods-NJDouYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu.debug.xcconfig"; sourceTree = "<group>"; };
-		7BDE2759E981D9ABC2F5B443 /* Pods-NJDouYuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuTests/Pods-NJDouYuTests.debug.xcconfig"; sourceTree = "<group>"; };
-		822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAD4F8F479BCE8486C6BA8D9 /* Pods-NJDouYuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYuUITests/Pods-NJDouYuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8BBDF67950D9426C6F7C3D4 /* Pods-NJDouYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJDouYu.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu.release.xcconfig"; sourceTree = "<group>"; };
 		E36195BC68DD83288460F65A /* Pods_NJDouYu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NJDouYu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,22 +42,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58B36C2520AAFD8200915868 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD6978F80AD91A3A1C856618 /* Pods_NJDouYuTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58B36C3020AAFD8200915868 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25D9A0FCD1CA39374DD3E84 /* Pods_NJDouYuUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,8 +50,6 @@
 			children = (
 				582B9FCA20F08D3900AED078 /* StoreKit.framework */,
 				E36195BC68DD83288460F65A /* Pods_NJDouYu.framework */,
-				822FD9383E8DAD74240D5B14 /* Pods_NJDouYuTests.framework */,
-				4D1275797F59C06B80417D7A /* Pods_NJDouYuUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				58B36C1620AAFD8200915868 /* NJDouYu */,
-				58B36C2B20AAFD8200915868 /* NJDouYuTests */,
-				58B36C3620AAFD8200915868 /* NJDouYuUITests */,
 				58B36C1520AAFD8200915868 /* Products */,
 				C350E21DBBC9A4E8A88596E9 /* Pods */,
 				52AE228EF275E603ABD0D7B3 /* Frameworks */,
@@ -121,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				58B36C1420AAFD8200915868 /* NJDouYu.app */,
-				58B36C2820AAFD8200915868 /* NJDouYuTests.xctest */,
-				58B36C3320AAFD8200915868 /* NJDouYuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,33 +87,11 @@
 			path = NJDouYu;
 			sourceTree = "<group>";
 		};
-		58B36C2B20AAFD8200915868 /* NJDouYuTests */ = {
-			isa = PBXGroup;
-			children = (
-				58B36C2C20AAFD8200915868 /* NJDouYuTests.swift */,
-				58B36C2E20AAFD8200915868 /* Info.plist */,
-			);
-			path = NJDouYuTests;
-			sourceTree = "<group>";
-		};
-		58B36C3620AAFD8200915868 /* NJDouYuUITests */ = {
-			isa = PBXGroup;
-			children = (
-				58B36C3720AAFD8200915868 /* NJDouYuUITests.swift */,
-				58B36C3920AAFD8200915868 /* Info.plist */,
-			);
-			path = NJDouYuUITests;
-			sourceTree = "<group>";
-		};
 		C350E21DBBC9A4E8A88596E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				76C63CACA4FC8CDA0B3CB770 /* Pods-NJDouYu.debug.xcconfig */,
 				C8BBDF67950D9426C6F7C3D4 /* Pods-NJDouYu.release.xcconfig */,
-				7BDE2759E981D9ABC2F5B443 /* Pods-NJDouYuTests.debug.xcconfig */,
-				2E581E24D08D5260836963BD /* Pods-NJDouYuTests.release.xcconfig */,
-				AAD4F8F479BCE8486C6BA8D9 /* Pods-NJDouYuUITests.debug.xcconfig */,
-				161CA18B130D74038E237D7B /* Pods-NJDouYuUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -195,44 +118,6 @@
 			productName = NJDouYu;
 			productReference = 58B36C1420AAFD8200915868 /* NJDouYu.app */;
 			productType = "com.apple.product-type.application";
-		};
-		58B36C2720AAFD8200915868 /* NJDouYuTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58B36C3F20AAFD8200915868 /* Build configuration list for PBXNativeTarget "NJDouYuTests" */;
-			buildPhases = (
-				3DF45AA19FB9EEE620EC16A8 /* [CP] Check Pods Manifest.lock */,
-				58B36C2420AAFD8200915868 /* Sources */,
-				58B36C2520AAFD8200915868 /* Frameworks */,
-				58B36C2620AAFD8200915868 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58B36C2A20AAFD8200915868 /* PBXTargetDependency */,
-			);
-			name = NJDouYuTests;
-			productName = NJDouYuTests;
-			productReference = 58B36C2820AAFD8200915868 /* NJDouYuTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		58B36C3220AAFD8200915868 /* NJDouYuUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58B36C4220AAFD8200915868 /* Build configuration list for PBXNativeTarget "NJDouYuUITests" */;
-			buildPhases = (
-				91E9140D8442636F9F14F34D /* [CP] Check Pods Manifest.lock */,
-				58B36C2F20AAFD8200915868 /* Sources */,
-				58B36C3020AAFD8200915868 /* Frameworks */,
-				58B36C3120AAFD8200915868 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58B36C3520AAFD8200915868 /* PBXTargetDependency */,
-			);
-			name = NJDouYuUITests;
-			productName = NJDouYuUITests;
-			productReference = 58B36C3320AAFD8200915868 /* NJDouYuUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -267,16 +152,6 @@
 							};
 						};
 					};
-					58B36C2720AAFD8200915868 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 58B36C1320AAFD8200915868;
-					};
-					58B36C3220AAFD8200915868 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 58B36C1320AAFD8200915868;
-					};
 				};
 			};
 			buildConfigurationList = 58B36C0F20AAFD8200915868 /* Build configuration list for PBXProject "NJDouYu" */;
@@ -293,8 +168,6 @@
 			projectRoot = "";
 			targets = (
 				58B36C1320AAFD8200915868 /* NJDouYu */,
-				58B36C2720AAFD8200915868 /* NJDouYuTests */,
-				58B36C3220AAFD8200915868 /* NJDouYuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,20 +182,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58B36C2620AAFD8200915868 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58B36C3120AAFD8200915868 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -332,7 +191,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/DYLiveRoom/DYLiveRoom.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJDYPlayer/NJDYPlayer.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/NJFAQ/NJFAQ.bundle",
@@ -349,25 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3DF45AA19FB9EEE620EC16A8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NJDouYuTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		877C833CAECBC0D3EB568E68 /* [CP] Check Pods Manifest.lock */ = {
@@ -388,31 +229,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91E9140D8442636F9F14F34D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NJDouYuUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F12B7AECA45FC8A1AD4A715E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/DYLiveShow/DYLiveShow.framework",
@@ -459,7 +282,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NJDouYu/Pods-NJDouYu-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -475,36 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58B36C2420AAFD8200915868 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58B36C2D20AAFD8200915868 /* NJDouYuTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58B36C2F20AAFD8200915868 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58B36C3820AAFD8200915868 /* NJDouYuUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		58B36C2A20AAFD8200915868 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58B36C1320AAFD8200915868 /* NJDouYu */;
-			targetProxy = 58B36C2920AAFD8200915868 /* PBXContainerItemProxy */;
-		};
-		58B36C3520AAFD8200915868 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58B36C1320AAFD8200915868 /* NJDouYu */;
-			targetProxy = 58B36C3420AAFD8200915868 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		58B36C3A20AAFD8200915868 /* Debug */ = {
@@ -789,76 +583,6 @@
 			};
 			name = Release;
 		};
-		58B36C4020AAFD8200915868 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BDE2759E981D9ABC2F5B443 /* Pods-NJDouYuTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44HDC9YG72;
-				INFOPLIST_FILE = NJDouYuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJDouYu.app/NJDouYu";
-			};
-			name = Debug;
-		};
-		58B36C4120AAFD8200915868 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E581E24D08D5260836963BD /* Pods-NJDouYuTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44HDC9YG72;
-				INFOPLIST_FILE = NJDouYuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJDouYu.app/NJDouYu";
-			};
-			name = Release;
-		};
-		58B36C4320AAFD8200915868 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAD4F8F479BCE8486C6BA8D9 /* Pods-NJDouYuUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44HDC9YG72;
-				INFOPLIST_FILE = NJDouYuUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NJDouYu;
-			};
-			name = Debug;
-		};
-		58B36C4420AAFD8200915868 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 161CA18B130D74038E237D7B /* Pods-NJDouYuUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44HDC9YG72;
-				INFOPLIST_FILE = NJDouYuUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.njhu.NJDouYuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NJDouYu;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -876,24 +600,6 @@
 			buildConfigurations = (
 				58B36C3D20AAFD8200915868 /* Debug */,
 				58B36C3E20AAFD8200915868 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58B36C3F20AAFD8200915868 /* Build configuration list for PBXNativeTarget "NJDouYuTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58B36C4020AAFD8200915868 /* Debug */,
-				58B36C4120AAFD8200915868 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58B36C4220AAFD8200915868 /* Build configuration list for PBXNativeTarget "NJDouYuUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58B36C4320AAFD8200915868 /* Debug */,
-				58B36C4420AAFD8200915868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
