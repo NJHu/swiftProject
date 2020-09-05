@@ -1,6 +1,7 @@
 def public_pods
     source 'https://github.com/CocoaPods/Specs.git' # 公有源
-    
+    pod 'Alamofire', '4.8.2'
+    pod 'AlamofireImage', '3.5.2'
 end
 
 def njspec_pods
