@@ -20,7 +20,7 @@ class NJAppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.rootViewController = NJTabBarController()
         // 设置监控
-        NJDebugTool.defaultTool.show()
+//        NJDebugTool.defaultTool.show()
         return true
     }
     
